@@ -77,7 +77,7 @@
             "date": 2022,
             "purpose": "personnal",
             "language": "godot",
-            "thumb": "../res/img/projects/seedKeeper.png",
+            "thumb": "res/img/projects/seedKeeper.png",
             "containerId": "video-games",
             "description": "Seed Keeper est un jeu de sensibilisation à l'utilisation des produits chimiques dans l'agriculture. Je l'ai créé à l'occasion d'une campagne menée dans mon établissement scolaire. L'objectif est de cultiver des plantatations de différentes sortes, afin de dévelpper son commerce. On peut soit choisir de planter du bio, soit de l'hybride.",
             "catchPhrase": "Défendre la bonne cause",
@@ -105,7 +105,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -113,7 +113,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "java",
-            "thumb": "../res/img/projects/odomo.png",
+            "thumb": "res/img/projects/odomo.png",
             "containerId": "algorithmic",
             "description": "odomo",
             "catchPhrase": "Projet Ensoleillé",
@@ -141,7 +141,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -149,7 +149,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "java",
-            "thumb": "../res/img/projects/biosphere7.png",
+            "thumb": "res/img/projects/biosphere7.png",
             "containerId": "algorithmic",
             "description": "biosphere7",
             "catchPhrase": "Un peu de stratégie!",
@@ -177,7 +177,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -185,7 +185,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "bash",
-            "thumb": "../res/img/projects/butgames.png",
+            "thumb": "res/img/projects/butgames.png",
             "containerId": "algorithmic",
             "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
             "catchPhrase": "catchphrase",
@@ -213,7 +213,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -221,7 +221,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "bash",
-            "thumb": "../res/img/projects/blog.png",
+            "thumb": "res/img/projects/blog.png",
             "containerId": "algorithmic",
             "description": "Ce logiciel en ligne de commande permet de gérer l'édition de plusieurs fichier au format markdown. On peut alors éditer un fichier via l'éditeur par défaut de la machine, lister les fichiers créés avec de logiciel, ainsi que les supprimer. Le logiciel permet également de convertir les fichiers markdown au format HTML au PDF. On peut ensuite visualiser les rendus.",
             "catchPhrase": "catchphrase",
@@ -249,7 +249,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -257,7 +257,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "html",
-            "thumb": "../res/img/projects/2ivf.png",
+            "thumb": "res/img/projects/2ivf.png",
             "containerId": "web",
             "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique.",
             "catchPhrase": "catchphrase",
@@ -285,7 +285,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -293,7 +293,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "sql",
-            "thumb": "../res/img/projects/billetconcert.png",
+            "thumb": "res/img/projects/billetconcert.png",
             "containerId": "web",
             "description": "BD",
             "catchPhrase": "catchphrase",
@@ -321,7 +321,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         },
         {
@@ -329,7 +329,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "none",
-            "thumb": "../res/img/projects/capgemini.png",
+            "thumb": "res/img/projects/capgemini.png",
             "containerId": "gestion-com",
             "description": "capgemini",
             "catchPhrase": "catchphrase",
@@ -357,7 +357,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "../res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.png"
             ]
         }
     ]
