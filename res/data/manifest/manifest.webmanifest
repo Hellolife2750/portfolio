@@ -1,0 +1,32 @@
+{
+    "theme_color": "#2b81e9",
+    "background_color": "whitesmoke",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/clement-portfolio",
+    "name": "Portfolio Cl\u00e9ment",
+    "short_name": "Portfolio C.A.",
+    "description": "page web portfolio de cl\u00e9ment, \u00e9tudiant en informatique \u00e0 bordeaux",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

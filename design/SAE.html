@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+<title>Programmation web</title>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="lib/w3.css" rel="stylesheet">
+<link href="lib/quizz.css" rel="stylesheet">
+<link href="http://www.informatics-tech.com/highlighter/prettify.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js' type='text/javascript'></script>
+<script src="http://www.informatics-tech.com/highlighter/prettify.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
+<style>
+    h5 {
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    h4,
+    h3 {
+        margin: 15px;
+    }
+
+    .rendu {
+        border: 1px solid black;
+    }
+
+    .quizlib-question-answers ul {
+        list-style: none;
+    }
+
+    li xmp {
+        display: inline;
+    }
+
+    /* CSS Simple Pre Code */
+    pre {
+        background: #333;
+        white-space: pre;
+        word-wrap: break-word;
+        overflow: auto;
+    }
+
+    pre.code {
+        margin: 20px 25px;
+        border-radius: 4px;
+        border: 1px solid #292929;
+        position: relative;
+    }
+
+    pre.code label {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        color: #ddd;
+        position: absolute;
+        left: 1px;
+        top: 15px;
+        text-align: center;
+        width: 60px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        pointer-events: none;
+    }
+
+    pre.code code {
+        font-family: "Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+        display: block;
+        margin: 0 0 0 60px;
+        padding: 15px 16px 14px;
+        border-left: 1px solid #555;
+        overflow-x: auto;
+        font-size: 13px;
+        line-height: 19px;
+        color: #ddd;
+    }
+
+    /* pre::after {
+        content: "double click to selection";
+        padding: 0;
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 18px;
+        top: 14px;
+        font-size: 12px;
+        color: #ddd;
+        line-height: 20px;
+        overflow: hidden;
+        -webkit-backface-visibility: hidden;
+        transition: all 0.3s ease;
+    } */
+
+    pre .str {
+        color: #ffffff;
+    }
+
+    pre .typ {
+        color: #ffffff;
+    }
+
+    pre:hover::after {
+        opacity: 0;
+        visibility: visible;
+    }
+
+    pre.code-css code {
+        color: #ffffff;
+         !important
+    }
+
+    pre.code-html code {
+        color: #ffffff;
+    }
+
+    pre.code-javascript code {
+        color: #ffffff;
+    }
+
+    pre.code-jquery code {
+        color: #ffffff;
+    }
+
+
+
+    .redux_quizz input[type=text] {
+        width: 60px;
+    }
+
+    table th {
+        text-align: center;
+    }
+
+    .linenums li {
+        list-style-type: decimal;
+        background: black;
+    }
+
+    .sous-menu {
+        border: 1px solid black;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+
+    table tr th,
+    td {
+        border: 1px solid black;
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Poppins", sans-serif
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    h1.w3-xxxlarge {
+        margin-top: 15px;
+    }
+
+    .w3-half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-half img:hover {
+        opacity: 1
+    }
+
+    .ajout-oga {
+        background-color: green;
+    }
+
+    .todo-oga {
+        background-color: red;
+    }
+
+    pre.enLigne {
+        display: inline;
+    }
+
+    .nicho-modif {
+        border-left: Lime 5px solid;
+        padding-left: 5px;
+        background: yellow;
+    }
+
+    tt {
+        background-color: #ffd6cc;
+    }
+
+    /* Keyboard key style */
+    kbd {
+        font-size: 0.7em;
+        border: 1px solid gray;
+        box-shadow: 1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;
+        border-radius: 3px;
+        margin: 2px 3px;
+        padding: 1px 5px;
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" id="mySidebar"
+        style="z-index:3;width:300px;font-weight:bold;"><br>
+        <a class="w3-button w3-hide-large w3-display-topleft" href="javascript:void(0)" onclick="w3_close()"
+            style="width:100%;font-size:22px">Close Menu</a>
+        <div class="w3-container">
+            <h3 class="w3-padding-64"><b>IUT Info Bordeaux</b></h3>
+        </div>
+        <div class="w3-bar-block ">
+
+
+            <div class="w3-bar-block sous-menu">
+                <a class="w3-bar-item w3-button w3-hover-white aqui" href="#ergo" onclick="w3_close()">
+                    Ergonomie</a>
+                <a class="w3-bar-item w3-button w3-hover-white aqui" href="#personas" onclick="w3_close()"> Méthode
+                    personas</a>
+                <a class="w3-bar-item w3-button w3-hover-white aqui" href="#sae" onclick="w3_close()"> SAE</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+        <a class="w3-button w3-red w3-margin-right" href="javascript:void(0)" onclick="w3_open()">&#9776;</a>
+        <span>IUT Info Bdx</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" id="myOverlay" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <div class="w3-container" id="showcase" style="margin-top:80px">
+            <h1 class="w3-jumbo"><b>SAE</b> : réalisation d'un site ... </h1>
+            <hr class="w3-round" style="width:50px;border:5px solid red">
+        </div>
+
+
+
+        <!-- Photo grid (modal) -->
+
+
+
+        <!-- Modal for full size images on click-->
+        <div class="w3-modal w3-black" id="modal01" onclick="this.style.display='none'" style="padding-top:0">
+            <span class="w3-button w3-black w3-xxlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img class="w3-image" id="img01">
+                <p id="caption"></p>
+            </div>
+        </div>
+
+        <div class="w3-container" id="git" style="margin-top:5px">
+
+
+            <h1 id="ergo">Bases de l'ergonomie</h1>
+
+
+
+
+            <div class="alert alert-info" role="alert">
+                <h3>Intérêt de l'ergonomie</h3>
+                <ul>
+                    <li>En 1999 IBM repense toute l'ergonomie de son site web. En une semaine les ventes ont augmenté de
+                        400%</li>
+                    <li>Après une refonte orientée utilisateur du site de Bell,le nombre de visites par semaine est
+                        passé de
+                        300.000 à 450.000.</li>
+                    <li>Un test a été réalisé sur un site de vente de cheesecakes. Après refonte de l'ergonomie, le site
+                        a
+                        fait une augmentation de 900%</li>
+                </ul>
+
+
+                <p>D'après des études menées par Nielsen et Gilutz:</p>
+                <ul>
+                    <li>Une modification d'un site coûte 100 fois plus cher après le lancement que lors de la phase de
+                        conception</li>
+                    <li>Idéalement, il faut consacrer 50% d'un buget d'un site sur l'utilisabilité.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="alert alert-info" role="alert">
+                <h3>Quelques exemples de l'évolution de certaines ergonomies</h3>
+                <h4>yahoo1997</h4>
+                <p> <img src="img/SAE/yahoo1997.png" alt=""></p>
+                <h4>yahoo2021</h4>
+                <p><img src="img/SAE/yahoo2021.png" alt=""></p>
+
+
+                <h4>Equipe2000</h4>
+                <p> <img src="img/SAE/equipe2000.png" alt=""></p>
+                <h4>equipe2021</h4>
+                <p><img src="img/SAE/equipe2021.png" alt=""></p>
+
+                <h4>google2009</h4>
+                <p> <img src="img/SAE/google2009.png" alt=""></p>
+                <h4>google2021</h4>
+                <p><img src="img/SAE/google2021.png" alt=""></p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="alert alert-info" role="alert">
+            <h3>Quelques idées reçues</h3>
+            <ul>
+                <li>La règle des 3 clics (Mon contenu doit être accessible en 3 clics): ne prend en compte que la difficulté physique liée au clic et pas la
+                    difficulté
+                    mentale. Le chemin doit avant tout être simple!</li>
+                <li>les internautes sont des idiots (pas forcement !). Il faut connaître
+                    les
+                    internautes visitant votre site et prendre en compte leurs caractéristiques.</li>
+                <li>Les internautes lisent en F : complètement faux. c'est l’apparence du site qui influence le
+                    parcours.</li>
+            </ul>
+            <p><img src="img/SAE/charlotte.png" alt=""></p>
+            <p><img src="img/SAE/modele.webp" alt=""></p>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+            <h3>Quelques idées reçues</h3>
+            <ul>
+                <li>Les internautes ne scrollent pas : vrai il y a 20 ans (pas de roulette sur les souris, les
+                    internautes ne
+                    savaient pas qu'on pouvait faire scroller une page). Eviter le scroll oblige à faire tenir
+                    l'information sur un
+                    espace trop réduit. Une étude a montré que 76% des internautes scrollent (et 22% jusqu'en bas)</li>
+                <li>le site du monde fait environ 35000 pixels de haut!</li>
+            </ul>
+            <p>
+                <img src="img/SAE/lemonde.png" alt="">
+            </p>
+        </div>
+
+
+        <h2>Les fondements de l'ergonomie</h2>
+        <div class="alert alert-info" role="alert">
+            <h3>Les théories de la Gestalt</h3>
+            <p>
+                <b>La loi de la proximité :</b> La proximité visuelle serait traitée en tant qu'indice par notre cerveau
+                pour préjuger
+                d'une proximité conceptuelle.
+
+                Les anciens sites de Calipage et d'Interflora ne l'appliquaient pas:
+            </p>
+            <p><img src="img/SAE/calipage.png" alt=""></p>
+            <p><img src="img/SAE/interflora.png" alt=""></p>
+
+            <p>
+                <b>La loi de la similarité :</b> Notre cerveau a tendance à regrouper les choses qui se ressemblent.
+                Ainsi, différents
+                attributs visuels peuvent nourrir la similarité de deux éléments (taille, forme, couleur, ...)
+
+                dans le courant des années 2000, Apple a très bien utilisécette loi (avec entre autres le bouton choisir
+                qui est de la même couleur que l'ipod
+                choisi) :
+            </p>
+            <p><img src="img/SAE/ipod.png" alt=""></p>
+        </div>
+
+
+
+        <h2>Concept d'affordance</h2>
+        <div class="alert alert-info" role="alert">
+            <p>
+                L'affordance est la possibilité d'action suggérée par les caractéristiques d'un objet.
+                Affordance d'une porte:</p>
+            <ul>
+                <li>signes implicites : places des gonds, forme de la poignée, ...</li>
+                <li>signes explicites : un écriteau Poussez, quelqu'un qui vous donne l'information, ...</li>
+            </ul>
+
+
+            <p>Pour un site web : les éléments de la page doivent vous donner des indices pour que vous arriviez à les
+                utiliser.
+
+                Notion importante pour :
+            </p>
+            <ul>
+                <li>Savoir si un lien/image est cliquable (changement de l'icone de la souris, ...)</li>
+                <li>Quelles sont les zones de saisie de texte pour se loguer</li>
+                <li>Localisation de la zone de recherche</li>
+            </ul>
+
+
+
+
+            <p> Regardez le module de recherche par mot-clef sur le site de fluctuat.net (avant et après refonte
+                ergonomie)</p>
+
+            <p>
+                <img src="img/SAE/fbefore.png" alt="">
+            </p>
+            <p>
+                <img src="img/SAE/fafter.png" alt="">
+            </p>
+        </div>
+        <p>
+        </p>
+
+        <h2>Et encore bien d'autres lois à connaître</h2>
+        <div class="alert alert-info" role="alert">
+            <ul>
+                <li>La loi de Fitts : une cible est d'autant plus rapide à atteindre qu'elle est proche et grande</li>
+                <li>Le nombre magique de Miller (7 éléments à mémoriser et analyser en même temps)</li>
+                <li>Loi de Hick : réduire le nombre de possibilités pour prendre une décision facile</li>
+
+            </ul>
+        </div>
+
+
+
+
+
+
+        <h1 id="personas">Méthode personas</h1>
+
+
+        <h2>Définition </h2>
+        <div class="alert alert-info" role="alert">
+            <p>C'est une technique issue du marketing qui vise à créer des personnages fictifs dont ont va imaginer le
+                comportement entre le moment où elle cherche à venir sur notre site et le moment ou elle a trouvé ce
+                qu'elle
+                cherchait.
+            </p>
+            <p>Cette étape fait intervenir le client en début de projet afin de permettre la création du design et la
+                structure du futur site web </p>
+        </div>
+
+
+
+        <h2>Concepts </h2>
+        <div class="alert alert-info" role="alert">
+
+            <ul>
+                <li>Les personas sont des faux utilisateurs créés de toutes pièces pour des besoins méthodologiques</li>
+                <li>Il faut définir 3 types de personas:
+                    <ol>
+                        <li>Le persona primaire : cible de prédilection. En cas de conflit avec d'autres personas c'est
+                            lui qui aura
+                            le dernier mot. Ceci permet, par exemple, de déterminer les options par défaut du site.</li>
+                        <li>Les personas secondaires : utilisateurs moins fréquents ou exigences moindres. Par exemple :
+                            un utilisateur
+                            d'une application métier peut faire toujours appel à une seule et même fonction</li>
+                        <li>ante-persona : profil que vous ne voulez pas satisfaire. L'interface ne doit pas être
+                            modifiée pour eux (rarement utilisé)</li>
+                    </ol>
+                </li>
+                <li>
+                    Pour chaque persona, il faut définir l'ensemble de ses dimensions:
+                    <ol>
+                        <li>informations socio-démographiques</li>
+                        <li>relation à la marque, historique client, relation aux concurrents</li>
+                        <li>habitudes, envies</li>
+                        <li>objectifs et missions sur le site.</li>
+                    </ol>
+                </li>
+                <li></li>
+            </ul>
+
+
+
+
+            <p> De ces caractéristiques peuvent naître des scénarios types qui permettront de créer un site en
+                adéquation
+                avec
+                ses besoins.
+            </p>
+        </div>
+
+        <h2>Exemple d'un personas (persona primaire du site BPI) </h2>
+        <div class="alert alert-info" role="alert">
+            <p>Philippe</p>
+            <p><img src="img/SAE/philippe.jpeg" style="display: inline;" alt=""></p>
+            <p>
+                Profil de Philippe :</p>
+            <ul>
+                <li>33 ans, célibataire, laborantin </li>
+                <li>projet de création d'entreprise innovante dans le domaine du recyclage des matières polluantes</li>
+                <li>equipement : PC, Widows, chrome, laptop, freebox. Pas de smartphone</li>
+            </ul>
+
+            <p>
+                Comportement sur internet : </p>
+            <ul>
+                <li>Navigue uniquement chez lui, 2 fois/semaine 20 minutes</li>
+                <li>N'aime pas internet et préfère des rapports humains directs</li>
+                <li>Il cherche un site permettant de joindre une personne pour échanger et lui poser des questions </li>
+            </ul>
+
+            <p>
+                Relation avec BPI : </p>
+            <ul>
+                <li>ne connaît pas BPI</li>
+                <li>il mûrit son projet de création depuis 3 mois</li>
+                <li>il cherche un moyen de financer une partie de la création de son entreprise</li>
+                <li>il arrive sur le site BPI en tapant les mots-clés suivants : aide financement entreprise</li>
+            </ul>
+
+        </div>
+
+
+        <h2>Scénario d'arrivée sur la page d'accueil en fonction de Philippe</h2>
+        <div class="alert alert-info" role="alert">
+            <ol>
+                <li>Comprendre si BPI peut participer au financement de son entreprise</li>
+                <li>Chercher si BPI a déjà financé le type d'entreprise qu'il souhaite créer</li>
+                <li>Chercher le numéro de téléphone d'un contact qui puisse le renseigner plus précisément grâce aux
+                    informations clés sur son projet</li>
+                <li>Envoyer l'adresse du site à son futur associé afin qu'il puisse l'aider dans l'exploration de la
+                    piste
+                    BPI</li>
+            </ol>
+
+        </div>
+
+        <h2>Résultat</h2>
+        <div class="alert alert-info" role="alert">
+            <p>on retrouve bien les 4 scénarios dans la page d'accueil</p>
+            <p><img src="img/SAE/bpi.png" style="display: inline;" alt=""></p>
+        </div>
+
+
+        <h2>Rermarques sur les personas</h2>
+        <div class="alert alert-info" role="alert">
+            <ul>
+                <li>La communication dans votre équipe autour de personas est importante</li>
+                <li>Un persona permet de ne plus dire ''l'internaute``</li>
+                <li>Il faut en moyenne une dizaine de personas pour la création d'un site. Chacun d'entre eux peut vivre
+                    plusieurs années</li>
+                <li>Dans les projets de grande envergure (chez IconMedialab) tous les moyens sont exploités pour
+                    communiquer posters affichés, porte-clés, cartes à jouer, et même des personas imprimés en grandeur
+                    nature)</li>
+
+            </ul>
+        </div>
+
+
+
+        <h2>Compléments possibles à la méthode personas: </h2>
+        <div class="alert alert-info" role="alert">
+            <ul>
+                <li> Questionner les internautes cibles. Exemples : si vous devez réaliser le site qui permet de jouer
+                    au
+                    loto en ligne il vous faudra aller dans les bureaux de tabac et points presses pour interroger les
+                    gens.</li>
+                <li>Pour une refonte de site, il faut analyser les statistiques (cf google analytics, clickDensity, ...)
+                </li>
+            </ul>
+            <p><img src="img/SAE/analytics.png" alt=""></p>
+        </div>
+
+        <h2>Ce qu'il faut retenir: </h2>
+        <div class="alert alert-info" role="alert">
+            <ul>
+                <li>
+                    Il n'y a pas une ergonomie universelle applicable à tous les sites (pas de recette miracle)
+                </li>
+                <li>Le bon sens ne suffit pas pour faire un site ergonomique</li>
+                <li>L'ergonomie est contextuelle (dépend des utilisateurs, de vos objectifs, ...)</li>
+                <li>La méthode personas est une étape importante. Elle permet d'éviter de faire des erreurs lors de la structuration du site et la création du design</li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+        <h1>SAE</h1>
+
+    <ul>
+        <li>2 séances encadrées de SAE</li>
+        <li> En Expression et communication vous avez créé du contenu. Il faut le présenter sous la forme d'un site web</li>
+        <li>projet à faire en binôme</li>
+    </ul>
+
+<p>Ce qu'il faut remettre sur moodle</p>
+    <ul>
+        <li>1 fiche personas</li>
+        <li>Maquette de la page d'accueil (avec un outils type https://balsamiq.com/wireframes/)</li>
+        <li>Dépot gitlab de votre site web (penser à inviter votre enseignant référent)</li>
+        <li>un site web composé des pages suivantes :  
+            <ul>
+                <li>Page d'accueil : donne le contexte du site. Quel est l'intérêt de ce site.</li>
+                <li>Présentation de l'entreprise</li>
+                <li>Analyse PESTE(L) de son macro-environement</li>
+                <li>Contacts avec un formulaire (qui ne fera rien)</li>
+                <li>Mentions légales</li>
+
+            </ul>
+
+            <li> Informations complémentaires : 
+                <ul>
+                    <li> Interditction de prendre un template existant</li>
+                    <li> Utilisation au choix (pour la mise en page) : Flex, Bootstrap.</li>
+                    <li> le site devra être responsive (tailles desktop et smartphone)</li>
+                    
+                </ul>
+            </li>
+            <li>Critères de notation 
+
+            <ul>
+                <li>Respect des consignes et des dates</li>
+                <li>Pertinence de la fiche personas</li>
+                <li>Adéquation maquette/site web</li>
+                <li>Utilisation du dépôt GIT</li>
+                <li>Qualité du site web (respect strict HTML/CSS : validation W3C)</li>
+                <li>Qualité UX/UI</li>                
+            </ul>
+
+            </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+        <p class="w3-right">
+            Powered by <a class="w3-hover-opacity" href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                title="W3.CSS">w3.css</a></p>
+    </div>
+
+    <script>
+        $('i[rel="pre"]').replaceWith(function () {
+            return $('<pre><code>' + $(this).html() + '</code></pre>');
+        });
+        var pres = document.querySelectorAll('pre,kbd,blockquote');
+        for (var i = 0; i < pres.length; i++) {
+            pres[i].addEventListener("dblclick", function () {
+                var selection = getSelection();
+                var range = document.createRange();
+                range.selectNodeContents(this);
+                selection.removeAllRanges();
+                selection.addRange(range);
+            }, false);
+        }
+    </script>
+    <script>
+        function sw() {
+
+            //window.open("temp.html","reponse","width=300,menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes");
+
+            $('<iframe>', {
+                src: 'sw.html',
+                id: 'myFrame',
+                width: '1000px',
+                height: '800px',
+                frameborder: 0,
+                scrolling: 'no'
+            }).fadeIn(800).appendTo('#reponse');
+        }
+    </script>
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+    </script>
+    <!--    <script type="text/javascript" src="quizlib.1.0.1.min.js">-->
+    <script src="lib/quizlib.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src='lib/quizz.js' type='text/javascript'></script>
+    <script src='lib/quizz-seance2.js' type='text/javascript'></script>
+    <script src='lib/order-quizz.js' type='text/javascript'></script>
+
+</body>
+
+</html>

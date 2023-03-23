@@ -1,0 +1,364 @@
+{
+    "projects": [
+        {
+            "title": "AquaRescue",
+            "date": 2021,
+            "purpose": "personnal",
+            "language": "cpp",
+            "thumb": "res/img/projects/aquarescue.png",
+            "containerId": "video-games",
+            "description": "AquaRescue est un jeu vidéo codé en C++. L'objectif est, dans un temps imparti, de ramasser le maximum de déchets dans l'océan. Il faut également faire attention aux ennemis tels que les requins et à sa barre d'oxygène. Ce jeu a été créé à l'ocation d'une GameJam pour la lutte contre le pollution des océans.",
+            "catchPhrase": "C++ que compliqué !",
+            "infos": {
+                "goal": "Participer à une GameJam",
+                "date": "nov. 2021",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "C++"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "Code::Blocks (IDE C++)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Audacity (Effets sonores)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Cloud Chaos",
+            "date": 2022,
+            "purpose": "personnal",
+            "language": "godot",
+            "thumb": "res/img/projects/cloudChaos.png",
+            "containerId": "video-games",
+            "description": "Cloud Chaos est un jeu android codé à l'aide de Godot Engine. Dans ce dernier, votre but est de défendre un bébé nuage, attaqué par des monstres. Il est possible d'améliorer le protagoniste, permettant ainsi de faire des parties plus longues et obtenir un meilleur score.",
+            "catchPhrase": "15 jours - un jeu",
+            "infos": {
+                "goal": "Créer mon 1e jeu mobile",
+                "date": "Janv. 2022",
+                "timeLimit": "15 jours",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "GDScript"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "Godot Engine 3 (Moteur de jeu)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Audacity (Effets sonores)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Seed Keeper",
+            "date": 2022,
+            "purpose": "personnal",
+            "language": "godot",
+            "thumb": "../res/img/projects/seedKeeper.png",
+            "containerId": "video-games",
+            "description": "Seed Keeper est un jeu de sensibilisation à l'utilisation des produits chimiques dans l'agriculture. Je l'ai créé à l'occasion d'une campagne menée dans mon établissement scolaire. L'objectif est de cultiver des plantatations de différentes sortes, afin de dévelpper son commerce. On peut soit choisir de planter du bio, soit de l'hybride.",
+            "catchPhrase": "Défendre la bonne cause",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Odomo",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "java",
+            "thumb": "../res/img/projects/odomo.png",
+            "containerId": "algorithmic",
+            "description": "odomo",
+            "catchPhrase": "Projet Ensoleillé",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "IA Biopshere7",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "java",
+            "thumb": "../res/img/projects/biosphere7.png",
+            "containerId": "algorithmic",
+            "description": "biosphere7",
+            "catchPhrase": "Un peu de stratégie!",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Installation de poste",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "../res/img/projects/butgames.png",
+            "containerId": "algorithmic",
+            "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
+            "catchPhrase": "catchphrase",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Moteur de blog",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "../res/img/projects/blog.png",
+            "containerId": "algorithmic",
+            "description": "Ce logiciel en ligne de commande permet de gérer l'édition de plusieurs fichier au format markdown. On peut alors éditer un fichier via l'éditeur par défaut de la machine, lister les fichiers créés avec de logiciel, ainsi que les supprimer. Le logiciel permet également de convertir les fichiers markdown au format HTML au PDF. On peut ensuite visualiser les rendus.",
+            "catchPhrase": "catchphrase",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Site 2IVF",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "html",
+            "thumb": "../res/img/projects/2ivf.png",
+            "containerId": "web",
+            "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique.",
+            "catchPhrase": "catchphrase",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Création d'une BD",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "sql",
+            "thumb": "../res/img/projects/billetconcert.png",
+            "containerId": "web",
+            "description": "BD",
+            "catchPhrase": "catchphrase",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        },
+        {
+            "title": "Rapport d'analyse de Capgemini",
+            "date": 2022,
+            "purpose": "educational",
+            "language": "none",
+            "thumb": "../res/img/projects/capgemini.png",
+            "containerId": "gestion-com",
+            "description": "capgemini",
+            "catchPhrase": "catchphrase",
+            "infos": {
+                "goal": "Undef",
+                "date": "Undef",
+                "timeLimit": "Undef",
+                "team": "Undef",
+                "context": "Undef",
+                "languages": "Undef"
+            },
+            "contribs": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "improves": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "tools": [
+                "undef",
+                "undef",
+                "undef"
+            ],
+            "descriptionImages": [
+                "../res/img/projects/aquarescue.png"
+            ]
+        }
+    ]
+}

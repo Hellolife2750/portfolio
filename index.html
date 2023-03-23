@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="page web portfolio de clément, étudiant en informatique à bordeaux">
+    <link rel="manifest" href="res/data/manifest/manifest.webmanifest">
+
+    <!-- charger la police d'écriture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Phudu:wght@500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!-- charger le style -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- charger les icônes (font awesome)-->
+    <script src="https://kit.fontawesome.com/bf31f3517c.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="res/img/icon.png"> <!-- charger la miniature -->
+
+    <title>Portfolio - Clément AUBIER - Etudiant informatique</title>
+</head>
+
+<body>
+
+    <!-- bouton retourner en haut de page -->
+    <div id="top-button">
+        <i class="fa-solid fa-arrow-up top-btn"></i>
+    </div>
+
+    <!-- curseur personnalisé-->
+    <div class="inner-cursor"></div>
+    <div class="outer-cursor"></div>
+
+    <!--Popup à l'ouverture des projets-->
+    <div id="projects-popup">
+        <div id="popup-card">
+            <div class="inner-popup">
+                <div id="previous-project-btn" class="left-button navigate-projects-button">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div id="next-project-btn" class="right-button navigate-projects-button">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="top-half">
+                    <div class="left-half">
+                        <section class="infos">
+                            <div class="title-section">
+                                <h2 class="pj-title">Project title</h2>
+                                <p class="catch">15 jours - Un jeu</p>
+                            </div>
+                            <div class="projects-infos">
+                                <ul id="projects-infos-lst">
+                                    <li><span class="bold">Objectif:</span> Créer mon 1e jeu mobile</li>
+                                    <li><span class="bold">Date:</span> septembre 2021</li>
+                                    <li><span class="bold">Délais:</span> 15 jours</li>
+                                    <li><span class="bold">Equipe:</span> seul</li>
+                                    <li><span class="bold">Contexte:</span> personnel</li>
+                                    <li><span class="bold">Language(s):</span> GDScript</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="preview">
+                            <img class="thumb" src="res/img/projects/aquarescue.png" alt="image extraite du projet">
+                        </section>
+                    </div>
+
+                    <div class="right-half">
+                        <div class="contribs-container">
+                            <h3 class="lst-title">Acquis <i class="fa-regular fa-circle-check"></i></h3>
+                            <ul class="project-contribs">
+                                <li><i class="fa-solid fa-arrow-right"></i> acquis item</li>
+                            </ul>
+                        </div>
+
+                        <div class="improves-container">
+                            <h3 class="lst-title">Améliorations <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                            <ul class="project-improves">
+                                <li><i class="fa-solid fa-arrow-right"></i> improves item</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="center-half">
+                </div> -->
+
+                <div class="bottom-half">
+                    <p class="description">Description du projet</p>
+                    <div class="tools">
+                        <h3 class="lst-title">Outils utilisés <i class="fa-solid fa-screwdriver-wrench"></i></h3>
+                        <ul class="tools-lst">
+                            <li><a href="">Inkscape</a></li>
+                            <li><a href="">CodeBlocks</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="skills-progress">
+                        <p>progression</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- barre de navigation de haut de page -->
+    <header>
+        <div class="toggle-icons">
+            <i class="fas fa-bars open-icon"></i>
+            <i class="fas fa-times close-icon"></i>
+        </div>
+        <ul id="main-nav">
+            <li onclick="window.location.href = '#principal'"><i class="fa-solid fa-house"></i> Principal</li>
+            <li onclick="window.location.href = '#aboutme'"><i class="fa-solid fa-user"></i> Sur moi</li>
+            <li onclick="window.location.href = '#projects'"><i class="fa-solid fa-code"></i> Projets</li>
+            <li><i class="fa-sharp fa-solid fa-briefcase"></i> Expérience</li>
+            <li onclick="window.location.href = '#footer'"><i class="fa-solid fa-address-card"></i> Me contacter
+            </li>
+        </ul>
+
+    </header>
+
+    <!-- tout le contenu restant de la page -->
+    <main>
+        <section id="principal">
+            <div class="left">
+                <h2><span>Clément <br> Aubier</span></h2>
+                <p class="fade-up-container">
+                    <span class="fade-up">Salut, je suis en première année d'études en IUT informatique à
+                        Bordeaux.</span>
+                </p>
+                <button class="classic-button" onclick="window.open('res/docs/CV.pdf', '_blank')"><i
+                        class="fa-solid fa-download"></i> Télécharger mon CV</button>
+            </div>
+            <div class="right">
+                <img src="res/img/autoportrait.png" alt="mon autoportrait" draggable="false">
+            </div>
+        </section>
+
+        <section id="aboutme" class="slide-in">
+            <div class="bar"></div>
+            <h2 class="section-title">Me concernant</h2>
+            <div class="content">
+                <div class="left">
+                    <img src="res/img/portrait.png" alt="photo de moi">
+                </div>
+                <div class="right">
+                    <p class="fade-up-container"><span class="fade-up first-fade">Je m'appelle Clément Aubier, j'ai
+                            18
+                            ans,
+                            et j'étudie
+                            actuellement à l'université de Bordeaux en IUT informatique.
+                            Je suis passionné par le numérique, notamment par l'algorithmique,
+                            domaine dans lequel je voudrai me spécialiser ensuite.</span></p>
+                    <p class="fade-up-container"><span class="fade-up second-fade">Dans mon temps libre, j'aime bien
+                            coder,
+                            faire du
+                            dessin
+                            vectoriel
+                            et du montage vidéo. La créativité et la liberté qu'offre le digital
+                            m'a toujours inspiré. Dans un cadre plus scolaire, j'aime relever
+                            les défis qui me sont posés, tout seul ou à plusieurs. Ma
+                            persévérance et ma curiosité me permettent de mener à bien les
+                            projets confiés, tout en me permettant de découvrir toujours plus
+                            sur ma passion.</span></p>
+                    <button class="classic-button dl-button" onclick="window.open('res/docs/CV.pdf', '_blank')"><i
+                            class="fa-solid fa-download"></i>
+                        Télécharger mon CV</button>
+                    <button onclick="window.location.href = '#footer'" class="classic-button"><i
+                            class="fa-solid fa-address-card"></i> Me contacter</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="slide-in">
+            <div class="bar"></div>
+            <h2 class="section-title">Mes projets</h2>
+
+            <div id="video-games" class="projects-section">
+                <div class="subsection-title">
+                    <div class="horizontal">
+                        <div class="vertical-bar"></div>
+                        <h3 class="projects-subtitle">Jeux vidéo</h3>
+                        <img class="unfold-button" src="res/img/plus.svg" alt="croix animation">
+                        <!--<i class="fa-solid fa-download modifie"></i>!-->
+                    </div>
+                    <div class="horizontal-bar"></div>
+
+                </div>
+                <div class="cards-container">
+                    <!--<div class="card">
+                        <div class="head">
+                            <img class="language-logo" src="../res/img/languages/cpp.png" alt="logo du c++">
+                            <i class="fa-solid fa-user"></i>
+                            <p>2021</p>
+                        </div>
+                        <img class="thumb" src="../res/img/projects/aquarescue.png" alt="photo projet ...">
+                        <h4>AquaRescue</h4>
+                    </div>
+                    <div class="card">
+                        <div class="head">
+                            <img class="language-logo" src="../res/img/languages/godot.png" alt="logo de godot engine">
+                            <i class="fa-solid fa-user"></i>
+                            <p>2022</p>
+                        </div>
+                        <img class="thumb" src="../res/img/projects/portrait.webp" alt="photo projet ...">
+                        <h4>Cloud Chaos</h4>
+                    </div>
+                    <div class="card">
+                        <div class="head">
+                            <img class="language-logo" src="../res/img/languages/godot.png" alt="logo de godot engine">
+                            <i class="fa-solid fa-user"></i>
+                            <p>2022</p>
+                        </div>
+                        <img class="thumb" src="../res/img/projects/portrait.webp" alt="photo projet ...">
+                        <h4>Seed Keeper</h4>
+                    </div>!-->
+                </div>
+            </div>
+
+            <div id="algorithmic" class="projects-section">
+                <div class="subsection-title">
+                    <div class="horizontal">
+                        <div class="vertical-bar"></div>
+                        <h3 class="projects-subtitle">Algorithmique</h3>
+                        <img class="unfold-button" src="res/img/plus.svg" alt="croix animation">
+                    </div>
+                    <div class="horizontal-bar"></div>
+                </div>
+
+                <div class="cards-container">
+
+                </div>
+            </div>
+
+            <div id="web" class="projects-section">
+                <div class="subsection-title">
+                    <div class="horizontal">
+                        <div class="vertical-bar"></div>
+                        <h3 class="projects-subtitle">Web</h3>
+                        <img class="unfold-button" src="res/img/plus.svg" alt="croix animation">
+                    </div>
+                    <div class="horizontal-bar"></div>
+                </div>
+
+                <div class="cards-container">
+
+                </div>
+            </div>
+
+            <div id="gestion-com" class="projects-section">
+                <div class="subsection-title">
+                    <div class="horizontal">
+                        <div class="vertical-bar"></div>
+                        <h3 class="projects-subtitle">Gestion & Communication</h3>
+                        <img class="unfold-button" src="res/img/plus.svg" alt="croix animation">
+                    </div>
+                    <div class="horizontal-bar"></div>
+                </div>
+
+                <div class="cards-container">
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="footer" class="slide-in">
+        <h2 class="section-title">Me contacter</h2>
+        <div class="content">
+            <div class="left">
+                <h3>Maintenant</h3>
+                <form id="contact" action="https://formspree.io/f/mdovgewr" method="POST">
+                    <div class="name">
+                        <div class="left">
+                            <label for="name-input">Nom</label>
+                            <input id="name-input" name="Nom" type="text" autocomplete="off" maxlength="20" required>
+                        </div>
+                        <div class="right">
+                            <label for="firstname-input">Prénom</label>
+                            <input id="firstname-input" name="Prénom" type="text" autocomplete="off" maxlength="20"
+                                required>
+                        </div>
+                    </div>
+                    <div class="vertical-container">
+                        <label for="email-input">Email</label>
+                        <input id="email-input" name="Email" type="email" required>
+                    </div>
+                    <div class="vertical-container">
+                        <label for="tel-input">Numéro de téléphone*</label>
+                        <input id="tel-input" name="Téléphone" type="tel" maxlength="10">
+                    </div>
+
+                    <div class="vertical-container">
+                        <label for="message-input">Message*</label>
+                        <textarea id="message-input" name="Message"></textarea>
+                    </div>
+                    <p>* Champ non obligatoire</p>
+                    <button id="send" class="classic-button" type="submit">Envoyer</button>
+                </form>
+            </div>
+            <div class="right">
+                <h3>Plus tard</h3>
+                <p><a class="clickable" href="mailto:clement.aubier.1@etu.u-bordeaux.fr"><i
+                            class="fa-solid fa-envelope"></i>
+                        clement.aubier.1@etu.u-bordeaux.fr</a></p>
+                <p><i class="fa-solid fa-phone"></i> 06.05.04.03.02</p>
+                <div class="row">
+                    <a href="https://hellolife2750.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
+                    <a href="https://www.youtube.com/channel/UCIxZRrYtMjIFYaABfA2hjFQ/"> <i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="https://github.com/Hellolife2750"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- charger le js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
