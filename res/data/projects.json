@@ -54,14 +54,12 @@
                 "languages": "GDScript"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Mener des recherches efficaces",
+                "Apprendre à utiliser Godot",
+                "Persévérance"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Apprendre à mieux m'organiser"
             ],
             "tools": [
                 "Godot Engine 3 (Moteur de jeu)",
@@ -69,7 +67,7 @@
                 "Audacity (Effets sonores)"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/cloudChaos.png"
             ]
         },
         {
@@ -82,12 +80,12 @@
             "description": "Seed Keeper est un jeu de sensibilisation à l'utilisation des produits chimiques dans l'agriculture. Je l'ai créé à l'occasion d'une campagne menée dans mon établissement scolaire. L'objectif est de cultiver des plantatations de différentes sortes, afin de dévelpper son commerce. On peut soit choisir de planter du bio, soit de l'hybride.",
             "catchPhrase": "Défendre la bonne cause",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "S'investir pour une cause",
+                "date": "mars 2022",
+                "timeLimit": "3 mois",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "GDScript"
             },
             "contribs": [
                 "undef",
@@ -95,17 +93,17 @@
                 "undef"
             ],
             "improves": [
-                "undef",
+                "Apprendre à découper les tâches complexes en sous-tâches plus simple",
                 "undef",
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "Godot Engine 3 (Moteur de jeu)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Audacity (Effets sonores)"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/seedKeeper.png"
             ]
         },
         {
@@ -115,20 +113,20 @@
             "language": "java",
             "thumb": "res/img/projects/odomo.png",
             "containerId": "algorithmic",
-            "description": "odomo",
+            "description": "Durant ce projet, j'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance de la JavaDoc, afin que mon code soit compréhensible aisément par autrui. J'ai aussi pu apprendre et mettre en pratique les conventions de rédaction des tests unitaires, tous aussi importants pour l'intégrité du code. La notion de matrice a été abordée à de nombreuses reprises dans ce programme, me permettant ainsi de mieux assimiler l'utilité des tableaux 2D. Enfin, j'ai eu l'occasion d'implémenter une fonctionnalité toute nouvelle dans la programme, à partir de presque rien. Aussi, cela a solicité ma logique, ma créativité et le soin apporté au code. En somme, ce fut un projet très instructif, en plus d'être mon premier programme Java.",
             "catchPhrase": "Projet Ensoleillé",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "S'approprier un code préexistant",
+                "date": "nov. 2022",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "académique",
+                "languages": "Java"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "S'approprier un code existant",
+                "Respect des conventions d'écriture du code",
+                "Utilisation concrète de Java"
             ],
             "improves": [
                 "undef",
@@ -136,12 +134,10 @@
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "NetBeans (IDE Java)"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/odomo.png"
             ]
         },
         {
@@ -177,7 +173,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/biosphere7.png"
             ]
         },
         {
@@ -213,7 +209,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/butgames.png"
             ]
         },
         {
@@ -249,7 +245,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/blog.png"
             ]
         },
         {
@@ -285,7 +281,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/2ivf.png"
             ]
         },
         {
@@ -321,11 +317,11 @@
                 "undef"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/billetconcert.png"
             ]
         },
         {
-            "title": "Rapport d'analyse de Capgemini",
+            "title": "Rapport d'analyse",
             "date": 2022,
             "purpose": "educational",
             "language": "none",
@@ -357,7 +353,7 @@
                 "undef"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/capgemini.png"
             ]
         }
     ]

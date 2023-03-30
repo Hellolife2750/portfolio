@@ -985,6 +985,25 @@ footer i[class*="github"]:hover {
     width: 100%;
     margin-top: 3rem;
   }
+
+  /*projects popup*/
+  /*#popup-card .top-half,
+  #popup-card .bottom-half {
+    height: auto;
+  }
+
+  #popup-card .top-half {
+    flex-wrap: wrap;
+  }
+
+  #popup-card .top-half .left-half,
+  #popup-card .top-half .right-half {
+    width: 90%;
+  }
+
+  #popup-card .top-half .right-half {
+    justify-content: center;
+  }*/
 }
 
 /* taille smartphone */
