@@ -113,7 +113,7 @@
             "language": "java",
             "thumb": "res/img/projects/odomo.png",
             "containerId": "algorithmic",
-            "description": "Durant ce projet, j'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance de la JavaDoc, afin que mon code soit compréhensible aisément par autrui. J'ai aussi pu apprendre et mettre en pratique les conventions de rédaction des tests unitaires, tous aussi importants pour l'intégrité du code. La notion de matrice a été abordée à de nombreuses reprises dans ce programme, me permettant ainsi de mieux assimiler l'utilité des tableaux 2D. Enfin, j'ai eu l'occasion d'implémenter une fonctionnalité toute nouvelle dans la programme, à partir de presque rien. Aussi, cela a solicité ma logique, ma créativité et le soin apporté au code. En somme, ce fut un projet très instructif, en plus d'être mon premier programme Java.",
+            "description": "J'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance des conventions d'écriture, afin que le code soit accessible par autrui (tests unitaires, Javadoc...). J'ai aussi  pu implémenter une fonctionnalité toute nouvelle dans le programme. Cela a sollicité ma logique et ma créativité.",
             "catchPhrase": "Projet Ensoleillé",
             "infos": {
                 "goal": "S'approprier un code préexistant",
@@ -129,9 +129,8 @@
                 "Utilisation concrète de Java"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Apprendre à rédiger un rapport de projet",
+                "Optimiser son code"
             ],
             "tools": [
                 "NetBeans (IDE Java)"
