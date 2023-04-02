@@ -248,6 +248,32 @@ span.fade-up {
 
 #aboutme img {
   width: 50%;
+  border-radius: 2rem;
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+#aboutme img:hover {
+  scale: 1.05;
+  border-radius: 1rem;
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+#aboutme .left {
+  position: relative;
+}
+
+#aboutme .left .color-rectangle {
+  position: absolute;
+  margin: 0 auto;
+  left: 20%;
+  bottom: -2rem;
+  width: 50%;
+  height: 100%;
+  background-color: var(--primary);
+  z-index: -1;
+  border-radius: 2rem;
+  opacity: 0.8;
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 #aboutme .left {
@@ -1041,6 +1067,10 @@ footer i[class*="github"]:hover {
   #aboutme img {
     width: 70%;
     margin-top: 7%;
+  }
+
+  #aboutme .left .color-rectangle {
+    display: none;
   }
 
   /*projects*/

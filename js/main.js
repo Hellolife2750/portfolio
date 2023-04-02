@@ -382,3 +382,14 @@ mainNavLis.forEach(li => {
 function mobileMenuOpened() {
     return body.classList.contains('opened');
 }
+
+/*grossir mon portrait au survol*/
+const portraitImg = document.querySelector("#aboutme img")
+const portraitBackground = document.querySelector("#aboutme .color-rectangle")
+
+portraitImg.addEventListener('mouseenter', () => {
+    portraitBackground.style.opacity = "0";
+});
+portraitImg.addEventListener('mouseleave', () => {
+    portraitBackground.style.opacity = "0.8";
+});
