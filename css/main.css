@@ -484,6 +484,13 @@ span.fade-up {
   transition: all 0.3s;
 }
 
+.classic-button.dl-retex {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 6rem;
+}
+
 /*#popup-card .top-half {
   display: flex;
   justify-content: space-around;
