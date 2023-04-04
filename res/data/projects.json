@@ -113,7 +113,7 @@
             "language": "java",
             "thumb": "res/img/projects/odomo.png",
             "containerId": "algorithmic",
-            "description": "J'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance des conventions d'écriture, afin que le code soit accessible par autrui (tests unitaires, Javadoc...). J'ai aussi  pu implémenter une fonctionnalité toute nouvelle dans le programme. Cela a sollicité ma logique et ma créativité.",
+            "description": "Odomo est une application de station météo fictive en version console. J'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance des conventions d'écriture, afin que le code soit accessible par autrui (tests unitaires, Javadoc...). Cela a aussi sollicité ma logique et ma créativité.",
             "catchPhrase": "Projet Ensoleillé",
             "infos": {
                 "goal": "S'approprier un code préexistant",
@@ -146,15 +146,15 @@
             "language": "java",
             "thumb": "res/img/projects/biosphere7.png",
             "containerId": "algorithmic",
-            "description": "biosphere7",
+            "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant jusdicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
             "catchPhrase": "Un peu de stratégie!",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Penser la stratégie d'une IA",
+                "date": "dec. 2022",
+                "timeLimit": "2 mois",
+                "team": "2",
+                "context": "académique",
+                "languages": "Java"
             },
             "contribs": [
                 "undef",
@@ -167,9 +167,7 @@
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "NetBeans (IDE Java)"
             ],
             "descriptionImages": [
                 "res/img/projects/biosphere7.png"
@@ -183,7 +181,7 @@
             "thumb": "res/img/projects/butgames.png",
             "containerId": "algorithmic",
             "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
-            "catchPhrase": "catchphrase",
+            "catchPhrase": "un besoin, une configuration",
             "infos": {
                 "goal": "Undef",
                 "date": "Undef",
@@ -203,48 +201,11 @@
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "VMware (logiciel de virtualisation)",
+                "Prompt Linux"
             ],
             "descriptionImages": [
                 "res/img/projects/butgames.png"
-            ]
-        },
-        {
-            "title": "Moteur de blog",
-            "date": 2022,
-            "purpose": "educational",
-            "language": "bash",
-            "thumb": "res/img/projects/blog.png",
-            "containerId": "algorithmic",
-            "description": "Ce logiciel en ligne de commande permet de gérer l'édition de plusieurs fichier au format markdown. On peut alors éditer un fichier via l'éditeur par défaut de la machine, lister les fichiers créés avec de logiciel, ainsi que les supprimer. Le logiciel permet également de convertir les fichiers markdown au format HTML au PDF. On peut ensuite visualiser les rendus.",
-            "catchPhrase": "catchphrase",
-            "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
-            },
-            "contribs": [
-                "undef",
-                "undef",
-                "undef"
-            ],
-            "improves": [
-                "undef",
-                "undef",
-                "undef"
-            ],
-            "tools": [
-                "undef",
-                "undef",
-                "undef"
-            ],
-            "descriptionImages": [
-                "res/img/projects/blog.png"
             ]
         },
         {
@@ -275,9 +236,9 @@
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "VS Code (IDE)",
+                "Inkscape (Editeur d'images vectorielles)",
+                "Balsamiq (Maquette)"
             ],
             "descriptionImages": [
                 "res/img/projects/2ivf.png"
@@ -291,7 +252,7 @@
             "thumb": "res/img/projects/billetconcert.png",
             "containerId": "web",
             "description": "BD",
-            "catchPhrase": "catchphrase",
+            "catchPhrase": "concert à la base",
             "infos": {
                 "goal": "Undef",
                 "date": "Undef",
@@ -311,8 +272,8 @@
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
+                "Microsoft SQL Server(SGBD)",
+                "XMind(MindMap design)",
                 "undef"
             ],
             "descriptionImages": [
