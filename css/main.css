@@ -1045,6 +1045,7 @@ footer i[class*="github"]:hover {
   /*menu de nav*/
   #main-nav li {
     font-size: 1.3rem;
+    width: 75%;
   }
 
   /*principal*/
@@ -1093,9 +1094,10 @@ footer i[class*="github"]:hover {
 }
 
 /*disparaitre curseur smartphone*/
-@media handheld {
+@media only handheld {
   .inner-cursor,
   .outer-cursor {
-    display: none;
+    display: none !important;
+    opacity: 0 !important;
   }
 }
