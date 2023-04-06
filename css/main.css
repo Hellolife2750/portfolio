@@ -1042,6 +1042,11 @@ footer i[class*="github"]:hover {
 
 /* taille smartphone */
 @media (max-width: 700px) {
+  /*menu de nav*/
+  #main-nav li {
+    font-size: 1.3rem;
+  }
+
   /*principal*/
   #principal {
     flex-wrap: wrap;
@@ -1084,5 +1089,13 @@ footer i[class*="github"]:hover {
   /*projects*/
   #projects .card {
     width: 90%;
+  }
+}
+
+/*disparaitre curseur smartphone*/
+@media handheld {
+  .inner-cursor,
+  .outer-cursor {
+    display: none;
   }
 }
