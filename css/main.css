@@ -1094,10 +1094,14 @@ footer i[class*="github"]:hover {
 }
 
 /*disparaitre curseur smartphone*/
-@media only handheld {
+@media (max-device-width: 1000px) {
   .inner-cursor,
   .outer-cursor {
     display: none !important;
     opacity: 0 !important;
+  }
+
+  body {
+    cursor: default;
   }
 }

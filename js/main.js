@@ -393,3 +393,8 @@ portraitImg.addEventListener('mouseenter', () => {
 portraitImg.addEventListener('mouseleave', () => {
     portraitBackground.style.opacity = "0.8";
 });
+
+/*-finir de rajouter tous les projets
+-refaire première page (enlever dessin pas beau)
+-mettre mon nom partout
+*/
