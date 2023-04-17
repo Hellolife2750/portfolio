@@ -397,4 +397,6 @@ portraitImg.addEventListener('mouseleave', () => {
 /*-finir de rajouter tous les projets
 -refaire première page (enlever dessin pas beau)
 -mettre mon nom partout
+-schéma dessin avant après pour les RETEX
+-ne pas mettre les noms des projets mais des trucs originaux
 */
