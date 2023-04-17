@@ -42,6 +42,9 @@
     <div class="inner-cursor"></div>
     <div class="outer-cursor"></div>
 
+    <!-- tooltip quand on survole une compétence -->
+    <div id="skills-tooltip"></div>
+
     <!--Popup à l'ouverture des projets-->
     <div id="projects-popup">
         <div id="popup-card">
@@ -139,13 +142,23 @@
             <div class="left">
                 <h2><span>Clément <br> Aubier</span></h2>
                 <p class="fade-up-container">
-                    <span class="fade-up">Salut, je suis en première année d'études informatique</span>
+                    <span class="fade-up">Salut, je suis en première année d'études informatique !</span>
                 </p>
                 <button class="classic-button" onclick="window.open('res/docs/CV.pdf', '_blank')"><i
                         class="fa-solid fa-download"></i> Télécharger mon CV</button>
             </div>
             <div class="right">
-                <img src="res/img/autoportrait22.png" alt="mon autoportrait" draggable="false">
+                <div id="skills-container">
+                    <!-- <div class="one-skill">
+                        <img src="res/img/languages/java.png" alt="logo de le compétence" draggable="false"
+                            title="Java">
+                        <div class="progress-bar-empty">
+                            <div class="progress-bar-full"></div>
+                        </div>
+                        <p class="pourcent">70%</p>
+                    </div> -->
+                </div>
+                <!-- <img src="res/img/autoportrait22.png" alt="mon autoportrait" draggable="false"> -->
             </div>
         </section>
 
@@ -155,7 +168,7 @@
             <div class="content">
                 <div class="left">
                     <div class="color-rectangle"></div>
-                    <img src="res/img/portrait2.png" alt="photo de moi" title="je sais que je suis un bg">
+                    <img src="res/img/portrait2.png" alt="photo de moi">
                 </div>
                 <div class="right">
                     <p class="fade-up-container"><span class="fade-up first-fade">Je m'appelle Clément Aubier, j'ai

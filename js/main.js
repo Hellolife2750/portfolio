@@ -30,12 +30,17 @@ const purposes = {
 };
 
 var cards;
+var allSkills;
+var allSkillsContainers;
+const skillsContainer = document.getElementById('skills-container');
+
 //var cardsElements = [];
 /*récupère le informations sur les projets contenues dans le fichier json*/
 fetch('res/data/projects.json')
     .then(response => response.json())
     .then(data => {
         cards = data.projects;
+        allSkills = data.skills;
         let lastCard;
         let container;
 
@@ -49,8 +54,21 @@ fetch('res/data/projects.json')
             });*/
 
         });
+
+        allSkills.forEach(skill => {
+            skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(skill));
+        });
         //addToDom();
         //console.log(cardsElements)
+        allSkillsContainers = document.querySelectorAll('.one-skill');
+        allSkillsContainers.forEach(skillContainer => {
+            skillContainer.addEventListener("mouseover", function () {
+                skillContainerOvered(skillContainer);
+            });
+            skillContainer.addEventListener("mouseleave", function () {
+                skillContainerLeaved(skillContainer);
+            });
+        });
     })
     .catch(error => console.error("MyError : Unable to load projects' card content :", error));
 
@@ -69,6 +87,73 @@ function generateCardCode(card) {
     `
     return cardCode;
 };
+
+function generateSkillCode(skill) {
+    let skillCode = `
+    <div class="one-skill" data-tooltip-content="${skill.description}">
+        <img src="res/img/languages/${skill.language}.png" alt="logo de le compétence" draggable="false"
+                            title="${skill.overTitle}">
+        <div class="progress-bar-empty">
+            <div class="progress-bar-full" width="${skill.progress}%"></div>
+        </div>
+        <p class="pourcent">${skill.progress}%</p>
+    </div>
+    `
+    return skillCode;
+}
+
+skillsContainer.addEventListener('mouseenter', () => {
+    if (parseInt(window.getComputedStyle(skillsContainer).getPropertyValue('top')) === 0) {
+        skillsContainer.style.animationPlayState = "paused";
+        skillsContainer.style.scale = "1";
+    }
+
+});
+
+skillsContainer.addEventListener('mouseleave', () => {
+    skillsContainer.style.animationPlayState = "running";
+});
+
+function skillContainerOvered(skillContainerOvered) {
+    allSkillsContainers.forEach(skillContainer => {
+        if (skillContainer != skillContainerOvered) {
+            skillContainer.style.opacity = ".2";
+            skillContainer.style.scale = ".9";
+        }
+
+    });
+    skillContainerOvered.style.scale = "1.1";
+    skillsTooltip.innerText = skillContainerOvered.getAttribute("data-tooltip-content");
+    skillsTooltip.style.display = "block";
+}
+
+function skillContainerLeaved(skillContainerLeaved) {
+    allSkillsContainers.forEach(skillContainer => {
+        if (skillContainer != skillContainerOvered) {
+            skillContainer.style.opacity = "1";
+            skillContainer.style.scale = "1";
+        }
+    });
+    skillContainerLeaved.style.scale = "1";
+    skillsTooltip.style.display = "none";
+}
+
+const skillsTooltip = document.getElementById('skills-tooltip');
+
+document.body.addEventListener("mousemove", function (event) {
+    moveTooltip(event);
+});
+
+function moveTooltip(e) {
+    skillsTooltip.style.top = `${e.clientY + 15}px`;
+    skillsTooltip.style.left = `${e.clientX + 15}px`;
+    /*gsap.to(skillsTooltip, 0.2, {
+        x: e.clientX,
+        y: e.clientY,
+        ease: "power4.out",
+        delay: 0.05,
+    });*/
+}
 
 /*function addToDom() {
     cardsElements.forEach(card => {

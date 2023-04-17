@@ -175,20 +175,122 @@ span.fade-up {
   background: red;
 }*/
 
-#principal img {
+/*#principal img {
   width: 60%;
   object-fit: contain;
-}
+}*/
 
 #principal .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 30%;
 }
 
 #principal .right {
   display: flex;
   justify-content: center;
+  width: 70%;
+}
+
+#skills-container {
+  width: 80%;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  /*box-shadow: 0 6px 6px hsl(0, 80%, 50%, 0.3);*/
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  transition: box-shadow 0.3s ease-in-out;
+
+  animation: slideInFromTop 0.7s cubic-bezier(0.26, 0.59, 0.25, 0.85),
+    pulseShadow 2s ease-in-out infinite;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    top: -100vh;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes pulseShadow {
+  0% {
+    /*box-shadow: 0 6px 6px hsl(0, 80%, 50%, 0.3);*/
+    transform: scale(1);
+  }
+  50% {
+    /* box-shadow: 0 10px 10px hsl(0, 80%, 50%, 0.5); */
+    transform: scale(1.01);
+  }
+  100% {
+    /* box-shadow: 0 6px 6px hsl(0, 80%, 50%, 0.3); */
+    transform: scale(1);
+  }
+}
+
+.one-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-top: 1%; /*margin-top 2%*/
+  padding-bottom: 1%;
+
+  border-radius: 50px;
+  background: whitesmoke;
+  box-shadow: 20px 20px 60px whitesmoke, -20px -20px 60px whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+.one-skill > * {
+  margin: 0.5rem;
+}
+
+.one-skill img {
+  width: 2rem;
+}
+
+.one-skill .pourcent {
+  font-size: 2rem;
+}
+
+.one-skill .progress-bar-empty {
+  width: 80%;
+  height: 1rem;
+  border-radius: 2rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar-empty .progress-bar-full {
+  background-color: var(--primary);
+  opacity: 0.8;
+  width: 50%;
+  height: 100%;
+  border-radius: 2rem;
+
+  transition: width 0.3s ease-in-out;
+}
+
+#skills-tooltip {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1em;
+  position: fixed;
+  text-align: justify;
+  line-height: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  z-index: 11;
+  font-weight: bold;
+  max-width: 25vw;
+
+  transition: all 0.1s ease-in-out;
 }
 
 .classic-button {
