@@ -203,6 +203,7 @@ span.fade-up {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-color: white;
 
   transition: box-shadow 0.3s ease-in-out;
 
@@ -243,8 +244,8 @@ span.fade-up {
   padding-bottom: 1%;
 
   border-radius: 50px;
-  background: whitesmoke;
-  box-shadow: 20px 20px 60px whitesmoke, -20px -20px 60px whitesmoke;
+  /*background: whitesmoke;*/
+  /*box-shadow: 20px 20px 60px whitesmoke, -20px -20px 60px whitesmoke;*/
   transition: all 0.3s ease-in-out;
 }
 
@@ -260,6 +261,10 @@ span.fade-up {
   font-size: 2rem;
 }
 
+.one-skill:hover .pourcent {
+  font-weight: bold;
+}
+
 .one-skill .progress-bar-empty {
   width: 80%;
   height: 1rem;
@@ -270,7 +275,7 @@ span.fade-up {
 .progress-bar-empty .progress-bar-full {
   background-color: var(--primary);
   opacity: 0.8;
-  width: 50%;
+  /*width: 50%;*/
   height: 100%;
   border-radius: 2rem;
 

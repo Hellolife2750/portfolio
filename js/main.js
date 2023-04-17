@@ -94,7 +94,7 @@ function generateSkillCode(skill) {
         <img src="res/img/languages/${skill.language}.png" alt="logo de le compétence" draggable="false"
                             title="${skill.overTitle}">
         <div class="progress-bar-empty">
-            <div class="progress-bar-full" width="${skill.progress}%"></div>
+            <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
         </div>
         <p class="pourcent">${skill.progress}%</p>
     </div>
@@ -484,4 +484,5 @@ portraitImg.addEventListener('mouseleave', () => {
 -mettre mon nom partout
 -schéma dessin avant après pour les RETEX
 -ne pas mettre les noms des projets mais des trucs originaux
+-faire le responsive
 */
