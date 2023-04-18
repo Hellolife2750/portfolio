@@ -205,7 +205,7 @@
             "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
             "catchPhrase": "un besoin, une configuration",
             "infos": {
-                "goal": "S'approprier UNIX",
+                "goal": "S'approprier Linux",
                 "date": "dec. 2022",
                 "timeLimit": "1 mois",
                 "team": "3",
@@ -213,14 +213,12 @@
                 "languages": "Bash"
             },
             "contribs": [
-                "undef",
-                "undef",
+                "Comprendre l'écosystème Linux",
+                "Savoir chercher des renseignements",
                 "undef"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Anticiper avant de se lancer dans la configuration"
             ],
             "tools": [
                 "VMware (logiciel de virtualisation)",
@@ -237,7 +235,7 @@
             "language": "html",
             "thumb": "res/img/projects/2ivf.png",
             "containerId": "web",
-            "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique.",
+            "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique. Cela a notamment impliqué de réfléchir au design du site au préalable via une maquette.",
             "catchPhrase": "l'informatique pour l'information",
             "infos": {
                 "goal": "Créer son premier site web",
@@ -248,18 +246,16 @@
                 "languages": "HTML/CSS"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Apprendre les conventions de code web",
+                "Comprendre les bases du design web",
+                "Travailler en équipe"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Mieux travailler la maquette"
             ],
             "tools": [
                 "VS Code (IDE)",
-                "Inkscape (Editeur d'images vectorielles)",
+                "W3C (Standards web)",
                 "Balsamiq (Maquette)"
             ],
             "descriptionImages": [
@@ -273,7 +269,7 @@
             "language": "sql",
             "thumb": "res/img/projects/billetconcert.png",
             "containerId": "web",
-            "description": "BD",
+            "description": "BILLETCONCERT.FR est une start-up fictive vendant des billets en ligne. Il a fallu créer et tester la base de données permettant de stocker l'agenda des festivals et concerts. Ensuite, une carte mentale a permis de mettre en avant le rôle de la qualité des données dans une BD.",
             "catchPhrase": "concert à la base",
             "infos": {
                 "goal": "Créer sa première BD",
@@ -284,14 +280,12 @@
                 "languages": "SQL"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Elaborer un MCD correspondant à des attentes",
+                "Construire une BD",
+                "Comprendre la qualité des données"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Elaborer un MCD complet, afin de ne pas avoir à revenir sur ses pas ensuite"
             ],
             "tools": [
                 "Microsoft SQL Server(SGBD)",
@@ -309,25 +303,23 @@
             "language": "none",
             "thumb": "res/img/projects/capgemini.png",
             "containerId": "gestion-com",
-            "description": "capgemini",
-            "catchPhrase": "catchphrase",
+            "description": "J'ai dû présenter une entreprise du secteur numérique française : Capgemini. Ensuite, une analyse de son macro et micro-environnement a permis de déterminer les forces et faiblesses de l'entreprise sur le plan stratégique.",
+            "catchPhrase": "analyse stratégique",
             "infos": {
-                "goal": "Découvrir la gestion d'entreprise",
-                "date": "oct. 2022",
+                "goal": "Analyser l'environnement d'une entreprise",
+                "date": "sept. 2022",
                 "timeLimit": "2 mois",
                 "team": "5",
                 "context": "académique",
                 "languages": "Aucun"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Comprendre les enjeux stratégiques d'une organisation",
+                "Trouver ses opportunités/menaces et forces/faiblesses",
+                "Rédiger un rapport construit"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Etre plus synthétique dans la rapport"
             ],
             "tools": [
                 "Google Docs (Traitement de texte)"

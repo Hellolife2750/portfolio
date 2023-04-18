@@ -64,3 +64,6 @@ RETEX :
 -ensemble des étapes prenantes
 t
 Sur la gauche, une photo du jeu, en haut le titre accrocheur, en haut les objectif, puis une brève description du projet, puis les apports et améliorations
+
+-SAE JPO
+-SAE Réseau
