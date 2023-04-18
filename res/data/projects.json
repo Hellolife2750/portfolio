@@ -44,14 +44,12 @@
                 "languages": "C++"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Concevoir un jeu de A à Z",
+                "Publier un jeu",
+                "Apprendre le dessin vectoriel"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Mieux comprendre les bases du langage avant de se lancer dans un projet d'envergure"
             ],
             "tools": [
                 "Code::Blocks (IDE C++)",
@@ -114,14 +112,12 @@
                 "languages": "GDScript"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Aboutir un projet d'envergure",
+                "Rester motivé",
+                "Approfondir l'utilisation de Godot"
             ],
             "improves": [
-                "Apprendre à découper les tâches complexes en sous-tâches plus simple",
-                "undef",
-                "undef"
+                "Apprendre à découper les tâches complexes en sous-tâches plus simples"
             ],
             "tools": [
                 "Godot Engine 3 (Moteur de jeu)",
@@ -183,17 +179,17 @@
                 "languages": "Java"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Travailler en équipe",
+                "Apprendre à utiliser git",
+                "Persévérer"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Organiser les tâches",
+                "Gérer son temps"
             ],
             "tools": [
-                "NetBeans (IDE Java)"
+                "NetBeans (IDE Java)",
+                "Git (Gestionnaire de versions)"
             ],
             "descriptionImages": [
                 "res/img/projects/biosphere7.png"
@@ -209,12 +205,12 @@
             "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
             "catchPhrase": "un besoin, une configuration",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "S'approprier UNIX",
+                "date": "dec. 2022",
+                "timeLimit": "1 mois",
+                "team": "3",
+                "context": "académique",
+                "languages": "Bash"
             },
             "contribs": [
                 "undef",
@@ -242,14 +238,14 @@
             "thumb": "res/img/projects/2ivf.png",
             "containerId": "web",
             "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique.",
-            "catchPhrase": "catchphrase",
+            "catchPhrase": "l'informatique pour l'information",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Créer son premier site web",
+                "date": "dec. 2022",
+                "timeLimit": "1 mois",
+                "team": "2",
+                "context": "académique",
+                "languages": "HTML/CSS"
             },
             "contribs": [
                 "undef",
@@ -280,12 +276,12 @@
             "description": "BD",
             "catchPhrase": "concert à la base",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Créer sa première BD",
+                "date": "janv. 2022",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "SQL"
             },
             "contribs": [
                 "undef",
@@ -300,7 +296,7 @@
             "tools": [
                 "Microsoft SQL Server(SGBD)",
                 "XMind(MindMap design)",
-                "undef"
+                "WinDesign (Conception MCD)"
             ],
             "descriptionImages": [
                 "res/img/projects/billetconcert.png"
@@ -316,12 +312,12 @@
             "description": "capgemini",
             "catchPhrase": "catchphrase",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Découvrir la gestion d'entreprise",
+                "date": "oct. 2022",
+                "timeLimit": "2 mois",
+                "team": "5",
+                "context": "académique",
+                "languages": "Aucun"
             },
             "contribs": [
                 "undef",
@@ -334,9 +330,7 @@
                 "undef"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "Google Docs (Traitement de texte)"
             ],
             "descriptionImages": [
                 "res/img/projects/capgemini.png"
