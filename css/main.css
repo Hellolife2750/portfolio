@@ -1116,7 +1116,10 @@ footer i[class*="github"]:hover {
   #principal {
     width: 90%;
   }
-  #principal img {
+  /*#principal img {
+    width: 80%;
+  }*/
+  #skills-container {
     width: 80%;
   }
 
@@ -1178,9 +1181,18 @@ footer i[class*="github"]:hover {
     text-align: center;
   }
 
-  #principal img {
+  /*#principal img {
     width: 60%;
     margin-top: 7%;
+  }*/
+
+  #principal .right {
+    width: 100%;
+  }
+
+  #skills-container {
+    margin-top: 7%;
+    width: 97%;
   }
 
   /*aboutme*/
@@ -1207,6 +1219,11 @@ footer i[class*="github"]:hover {
   /*projects*/
   #projects .card {
     width: 90%;
+  }
+
+  /*footer*/
+  footer .content {
+    width: 100%;
   }
 }
 
