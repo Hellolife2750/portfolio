@@ -168,7 +168,7 @@
             "language": "java",
             "thumb": "res/img/projects/biosphere7.png",
             "containerId": "algorithmic",
-            "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant jusdicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
+            "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant judicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
             "catchPhrase": "Un peu de stratégie!",
             "infos": {
                 "goal": "Penser la stratégie d'une IA",
@@ -273,7 +273,7 @@
             "catchPhrase": "concert à la base",
             "infos": {
                 "goal": "Créer sa première BD",
-                "date": "janv. 2022",
+                "date": "janv. 2023",
                 "timeLimit": "3 semaines",
                 "team": "2",
                 "context": "académique",
