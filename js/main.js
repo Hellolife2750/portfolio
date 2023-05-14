@@ -230,7 +230,7 @@ function getProjectInfosLstCode(project) {
 function getToolsCode(project) {
     let code = ``;
     project.tools.forEach(item => {
-        code += `<li><a href="">${item}</a></li>`;
+        code += `<li><a>${item}</a></li>`;
     })
     return code;
 }
