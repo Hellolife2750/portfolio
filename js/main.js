@@ -269,7 +269,12 @@ function openCardPopup() {
     setScroll(false);
     projectsPopup.style.display = "flex";
     if (popupCard.clientHeight < 1) {
-        popupCard.style.height = '70%';
+        if (window.innerWidth > 1000) {
+            popupCard.style.height = '70%';
+        } else {
+            popupCard.style.height = '85%';
+        }
+
     }
 }
 
@@ -277,7 +282,7 @@ function closeCardPopup() {
     projectsPopupOpened = false;
     setScroll(true);
     if (popupCard.clientHeight > 1) {
-        popupCard.style.height = '0px';
+        popupCard.style.height = '0px'; //ici je dois faire que soit pris en compte malgré le important
     }
 }
 
@@ -288,7 +293,8 @@ projectsPopup.addEventListener('transitionend', () => {
 })
 
 function setScroll(state) {
-    state ? document.removeEventListener("mousewheel", preventDefault, { passive: false }) : document.addEventListener("mousewheel", preventDefault, { passive: false });
+    //
+    //state ? document.removeEventListener("mousewheel", preventDefault, { passive: false }) : document.addEventListener("mousewheel", preventDefault, { passive: false });
 }
 
 function preventDefault(event) {
