@@ -915,17 +915,17 @@ footer .row a:hover i {
   transition: all 0.5s ease-in-out;
 }
 
-footer i[class*="itch"]:hover {
+/*footer i[class*="itch"]:hover {
   color: #f79c19;
 }
 
-footer i[class*="youtube"]:hover {
+footer i[class*="linkedin"]:hover {
   color: #f32c14;
 }
 
 footer i[class*="github"]:hover {
   color: #2a0d0d;
-}
+}*/
 
 /*effet de slide au scroll*/
 .slide-in {
@@ -1099,7 +1099,7 @@ footer i[class*="github"]:hover {
     justify-content: space-around;
     align-items: center;
     transform: translateX(-100%);
-    transition: transform .5s ease;
+    transition: transform 0.5s ease;
   }
 
   #main-nav li {
