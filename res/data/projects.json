@@ -5,7 +5,7 @@
             "progress": 45,
             "logo": "undefined",
             "bgColor": "",
-            "description": "Java est un langage de la technologie embarquée.",
+            "description": "Java est un langage de la technologie embarquée. [bases & programmation objet]",
             "overTitle": "Java"
         },
         {
@@ -13,7 +13,7 @@
             "progress": 65,
             "logo": "undefined",
             "bgColor": "",
-            "description": "Python3 est un langage simplifié notamment utilisé pour le traitement de données.",
+            "description": "Python3 est un langage simplifié notamment utilisé pour le traitement de données. [bases & programmation objet]",
             "overTitle": "Python3"
         },
         {
@@ -21,7 +21,7 @@
             "progress": 45,
             "logo": "undefined",
             "bgColor": "",
-            "description": "HTML5 et CSS3 permettent de mettre en page une page web moderne.",
+            "description": "HTML5 et CSS3 permettent de mettre en page une page web moderne. [bases]",
             "overTitle": "HTML5/CSS3"
         }
     ],
