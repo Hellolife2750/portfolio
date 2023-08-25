@@ -42,6 +42,9 @@
     <div class="inner-cursor"></div>
     <div class="outer-cursor"></div>
 
+    <!-- tooltip quand on survole une compétence -->
+    <div id="skills-tooltip"></div>
+
     <!--Popup à l'ouverture des projets-->
     <div id="projects-popup">
         <div id="popup-card">
@@ -55,6 +58,8 @@
                 <button class="classic-button dl-retex"
                     onclick="window.open('res/docs/RETEX_Clement_Aubier.pdf', '_blank')"><i
                         class="fa-solid fa-download"></i></button>
+
+                <p class="name-tag">AUBIER Clément</p>
 
                 <div class="top-half">
                     <div class="left-half">
@@ -74,9 +79,10 @@
                                 </ul>
                             </div>
                         </section>
-                        <section class="preview">
+                        <!-- section -->
+                        <div class="preview">
                             <img class="thumb" src="res/img/projects/aquarescue.png" alt="image extraite du projet">
-                        </section>
+                        </div>
                     </div>
 
                     <div class="right-half">
@@ -123,10 +129,10 @@
             <i class="fas fa-times close-icon"></i>
         </div>
         <ul id="main-nav">
-            <li onclick="window.location.href = '#principal'"><i class="fa-solid fa-house"></i> Principal</li>
+            <li onclick="window.location.href = '#'"><i class="fa-solid fa-house"></i> Principal</li>
             <li onclick="window.location.href = '#aboutme'"><i class="fa-solid fa-user"></i> Sur moi</li>
             <li onclick="window.location.href = '#projects'"><i class="fa-solid fa-code"></i> Projets</li>
-            <li><i class="fa-sharp fa-solid fa-briefcase"></i> Expérience</li>
+            <!-- <li><i class="fa-sharp fa-solid fa-briefcase"></i> Expérience</li> -->
             <li onclick="window.location.href = '#footer'"><i class="fa-solid fa-address-card"></i> Me contacter
             </li>
         </ul>
@@ -139,13 +145,23 @@
             <div class="left">
                 <h2><span>Clément <br> Aubier</span></h2>
                 <p class="fade-up-container">
-                    <span class="fade-up">Salut, je suis en première année d'études informatique</span>
+                    <span class="fade-up">Salut, je suis en première année d'études informatique !</span>
                 </p>
-                <button class="classic-button" onclick="window.open('res/docs/CV.pdf', '_blank')"><i
+                <button class="classic-button" onclick="window.open('res/docs/CV_final.pdf', '_blank')"><i
                         class="fa-solid fa-download"></i> Télécharger mon CV</button>
             </div>
             <div class="right">
-                <img src="res/img/autoportrait22.png" alt="mon autoportrait" draggable="false">
+                <div id="skills-container">
+                    <!-- <div class="one-skill">
+                        <img src="res/img/languages/java.png" alt="logo de le compétence" draggable="false"
+                            title="Java">
+                        <div class="progress-bar-empty">
+                            <div class="progress-bar-full" width="30%"></div>
+                        </div>
+                        <p class="pourcent">70%</p>
+                    </div> -->
+                </div>
+                <!-- <img src="res/img/autoportrait22.png" alt="mon autoportrait" draggable="false"> -->
             </div>
         </section>
 
@@ -155,7 +171,7 @@
             <div class="content">
                 <div class="left">
                     <div class="color-rectangle"></div>
-                    <img src="res/img/portrait2.png" alt="photo de moi" title="je sais que je suis un bg">
+                    <img src="res/img/portrait.webp" alt="photo de moi">
                 </div>
                 <div class="right">
                     <p class="fade-up-container"><span class="fade-up first-fade">Je m'appelle Clément Aubier, j'ai
@@ -176,7 +192,7 @@
                             persévérance et ma curiosité me permettent de mener à bien les
                             projets confiés, tout en me permettant de découvrir toujours plus
                             sur ma passion.</span></p>
-                    <button class="classic-button dl-button" onclick="window.open('res/docs/CV.pdf', '_blank')"><i
+                    <button class="classic-button dl-button" onclick="window.open('res/docs/CV_final.pdf', '_blank')"><i
                             class="fa-solid fa-download"></i>
                         Télécharger mon CV</button>
                     <button onclick="window.location.href = '#footer'" class="classic-button"><i
@@ -292,11 +308,11 @@
                 <p><a class="clickable" href="mailto:clement.aubier.1@etu.u-bordeaux.fr"><i
                             class="fa-solid fa-envelope"></i>
                         clement.aubier.1@etu.u-bordeaux.fr</a></p>
-                <p><i class="fa-solid fa-phone"></i> 06.05.04.03.02</p>
+                <p><i class="fa-solid fa-phone"></i> 06.33.54.50.22</p>
                 <div class="row">
                     <a href="https://hellolife2750.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
-                    <a href="https://www.youtube.com/channel/UCIxZRrYtMjIFYaABfA2hjFQ/"> <i
-                            class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/cl%C3%A9ment-abr-83b681279/"> <i
+                            class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/Hellolife2750"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>

@@ -175,20 +175,128 @@ span.fade-up {
   background: red;
 }*/
 
-#principal img {
+/*#principal img {
   width: 60%;
   object-fit: contain;
-}
+}*/
 
 #principal .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 30%;
 }
 
 #principal .right {
   display: flex;
   justify-content: center;
+  width: 70%;
+}
+
+#skills-container {
+  width: 80%;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  /*box-shadow: 0 6px 6px hsl(0, 80%, 50%, 0.3);*/
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white;
+
+  transition: box-shadow 0.3s ease-in-out;
+
+  animation: slideInFromTop 0.7s cubic-bezier(0.26, 0.59, 0.25, 0.85),
+    pulseShadow 2s ease-in-out infinite;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    top: -100vh;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes pulseShadow {
+  0% {
+    /*box-shadow: 0 6px 6px hsl(0, 80%, 50%, 0.3);*/
+    transform: scale(1);
+  }
+  50% {
+    /* box-shadow: 0 10px 10px hsl(0, 80%, 50%, 0.5); */
+    transform: scale(1.01);
+  }
+  100% {
+    /* box-shadow: 0 6px 6px hsl(0, 80%, 50%, 0.3); */
+    transform: scale(1);
+  }
+}
+
+.one-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-top: 1%; /*margin-top 2%*/
+  padding-bottom: 1%;
+
+  border-radius: 50px;
+  /*background: whitesmoke;*/
+  /*box-shadow: 20px 20px 60px whitesmoke, -20px -20px 60px whitesmoke;*/
+  transition: all 0.3s ease-in-out;
+}
+
+.one-skill > * {
+  margin: 0.5rem;
+}
+
+.one-skill img {
+  width: 2rem;
+}
+
+.one-skill .pourcent {
+  font-size: 2rem;
+}
+
+.one-skill:hover .pourcent {
+  font-weight: bold;
+}
+
+.one-skill .progress-bar-empty {
+  width: 80%;
+  height: 1rem;
+  border-radius: 2rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar-empty .progress-bar-full {
+  background-color: var(--primary);
+  opacity: 0.8;
+  /*width: 50%;*/
+  height: 100%;
+  border-radius: 2rem;
+
+  transition: width 0.3s ease-in-out;
+}
+
+#skills-tooltip {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1em;
+  position: fixed;
+  text-align: justify;
+  line-height: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  z-index: 11;
+  font-weight: bold;
+  max-width: 25vw;
+  display: none;
+
+  transition: all 0.1s ease-in-out;
 }
 
 .classic-button {
@@ -512,6 +620,15 @@ span.fade-up {
   height: 100%;
 }
 
+#popup-card .name-tag {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
 #popup-card .top-half,
 /*#popup-card .center-half,*/
 #popup-card .bottom-half {
@@ -561,6 +678,7 @@ span.fade-up {
 
 #popup-card .thumb {
   width: 100%;
+  border-radius: 1rem;
 }
 
 #popup-card .right-half {
@@ -797,17 +915,17 @@ footer .row a:hover i {
   transition: all 0.5s ease-in-out;
 }
 
-footer i[class*="itch"]:hover {
+/*footer i[class*="itch"]:hover {
   color: #f79c19;
 }
 
-footer i[class*="youtube"]:hover {
+footer i[class*="linkedin"]:hover {
   color: #f32c14;
 }
 
 footer i[class*="github"]:hover {
   color: #2a0d0d;
-}
+}*/
 
 /*effet de slide au scroll*/
 .slide-in {
@@ -981,7 +1099,7 @@ footer i[class*="github"]:hover {
     justify-content: space-around;
     align-items: center;
     transform: translateX(-100%);
-    transition: transform 1s ease;
+    transition: transform 0.5s ease;
   }
 
   #main-nav li {
@@ -999,7 +1117,10 @@ footer i[class*="github"]:hover {
   #principal {
     width: 90%;
   }
-  #principal img {
+  /*#principal img {
+    width: 80%;
+  }*/
+  #skills-container {
     width: 80%;
   }
 
@@ -1019,6 +1140,72 @@ footer i[class*="github"]:hover {
     width: 100%;
     margin-top: 3rem;
   }
+
+  /*popup card*/
+  #popup-card {
+    width: 100%;
+    /*height: 85% !important;*/
+    overflow: scroll !important;
+  }
+
+  .inner-popup {
+    overflow: scroll !important;
+  }
+
+  /*#projects-popup {
+    overflow: scroll !important;
+  }*/
+
+  #next-project-btn,
+  #previous-project-btn {
+    top: 5%;
+  }
+
+  .name-tag {
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  #popup-card .top-half {
+    flex-wrap: wrap;
+    padding-top: 2rem;
+  }
+
+  #popup-card .top-half .left-half,
+  #popup-card .top-half .right-half {
+    width: 90%;
+  }
+
+  #popup-card .top-half .right-half {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  #popup-card .top-half .right-half > * {
+    width: 45%;
+  }
+
+  .inner-popup {
+    flex-direction: column;
+  }
+
+  #popup-card .bottom-half {
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 170px; /*250px ou 25%*/
+    width: 100%;
+  }
+
+  /*#popup-card .bottom-half .right-half > * {
+    width: 45%;
+  }*/
 
   /*projects popup*/
   /*#popup-card .top-half,
@@ -1061,9 +1248,18 @@ footer i[class*="github"]:hover {
     text-align: center;
   }
 
-  #principal img {
+  /*#principal img {
     width: 60%;
     margin-top: 7%;
+  }*/
+
+  #principal .right {
+    width: 100%;
+  }
+
+  #skills-container {
+    margin-top: 7%;
+    width: 97%;
   }
 
   /*aboutme*/
@@ -1090,6 +1286,43 @@ footer i[class*="github"]:hover {
   /*projects*/
   #projects .card {
     width: 90%;
+  }
+
+  /*footer*/
+  footer .content {
+    width: 100%;
+  }
+
+  /*cards popup*/
+  #popup-card .top-half .left-half {
+    flex-wrap: wrap;
+  }
+
+  #popup-card .top-half .left-half > * {
+    width: 90%;
+  }
+
+  #popup-card .top-half .left-half .preview {
+    margin-top: 2rem;
+    max-width: 350px;
+  }
+
+  #popup-card .top-half .right-half > * {
+    width: 90%;
+  }
+
+  #popup-card .bottom-half {
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    margin-top: 600px !important; /*250px ou 25%*/
+  }
+
+  #popup-card .bottom-half > * {
+    width: 90% !important;
+  }
+
+  #popup-card .bottom-half .tools {
+    margin-top: 2rem;
   }
 }
 

@@ -1,4 +1,30 @@
 {
+    "skills": [
+        {
+            "language": "java",
+            "progress": 45,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Java est un langage de la technologie embarquée. [bases & programmation objet]",
+            "overTitle": "Java"
+        },
+        {
+            "language": "python",
+            "progress": 65,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Python3 est un langage simplifié notamment utilisé pour le traitement de données. [bases & programmation objet]",
+            "overTitle": "Python3"
+        },
+        {
+            "language": "html",
+            "progress": 45,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "HTML5 et CSS3 permettent de mettre en page une page web moderne. [bases]",
+            "overTitle": "HTML5/CSS3"
+        }
+    ],
     "projects": [
         {
             "title": "AquaRescue",
@@ -18,14 +44,12 @@
                 "languages": "C++"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Concevoir un jeu de A à Z",
+                "Publier un jeu",
+                "Apprendre le dessin vectoriel"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Mieux comprendre les bases du langage avant de se lancer dans un projet d'envergure"
             ],
             "tools": [
                 "Code::Blocks (IDE C++)",
@@ -88,14 +112,12 @@
                 "languages": "GDScript"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Aboutir un projet d'envergure",
+                "Rester motivé",
+                "Approfondir l'utilisation de Godot"
             ],
             "improves": [
-                "Apprendre à découper les tâches complexes en sous-tâches plus simple",
-                "undef",
-                "undef"
+                "Apprendre à découper les tâches complexes en sous-tâches plus simples"
             ],
             "tools": [
                 "Godot Engine 3 (Moteur de jeu)",
@@ -146,7 +168,7 @@
             "language": "java",
             "thumb": "res/img/projects/biosphere7.png",
             "containerId": "algorithmic",
-            "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant jusdicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
+            "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant judicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
             "catchPhrase": "Un peu de stratégie!",
             "infos": {
                 "goal": "Penser la stratégie d'une IA",
@@ -157,17 +179,17 @@
                 "languages": "Java"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Travailler en équipe",
+                "Apprendre à utiliser git",
+                "Persévérer"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Organiser les tâches",
+                "Gérer son temps"
             ],
             "tools": [
-                "NetBeans (IDE Java)"
+                "NetBeans (IDE Java)",
+                "Git (Gestionnaire de versions)"
             ],
             "descriptionImages": [
                 "res/img/projects/biosphere7.png"
@@ -183,22 +205,19 @@
             "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
             "catchPhrase": "un besoin, une configuration",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "S'approprier Linux",
+                "date": "dec. 2022",
+                "timeLimit": "1 mois",
+                "team": "3",
+                "context": "académique",
+                "languages": "Bash"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Comprendre l'écosystème Linux",
+                "Savoir chercher des renseignements"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Anticiper avant de se lancer dans la configuration"
             ],
             "tools": [
                 "VMware (logiciel de virtualisation)",
@@ -215,29 +234,27 @@
             "language": "html",
             "thumb": "res/img/projects/2ivf.png",
             "containerId": "web",
-            "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique.",
-            "catchPhrase": "catchphrase",
+            "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique. Cela a notamment impliqué de réfléchir au design du site au préalable via une maquette.",
+            "catchPhrase": "l'informatique pour l'information",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Créer son premier site web",
+                "date": "dec. 2022",
+                "timeLimit": "1 mois",
+                "team": "2",
+                "context": "académique",
+                "languages": "HTML/CSS"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Apprendre les conventions de code web",
+                "Comprendre les bases du design web",
+                "Travailler en équipe"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Mieux travailler la maquette"
             ],
             "tools": [
                 "VS Code (IDE)",
-                "Inkscape (Editeur d'images vectorielles)",
+                "W3C (Standards web)",
                 "Balsamiq (Maquette)"
             ],
             "descriptionImages": [
@@ -251,30 +268,28 @@
             "language": "sql",
             "thumb": "res/img/projects/billetconcert.png",
             "containerId": "web",
-            "description": "BD",
+            "description": "BILLETCONCERT.FR est une start-up fictive vendant des billets en ligne. Il a fallu créer et tester la base de données permettant de stocker l'agenda des festivals et concerts. Ensuite, une carte mentale a permis de mettre en avant le rôle de la qualité des données dans une BD.",
             "catchPhrase": "concert à la base",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Créer sa première BD",
+                "date": "janv. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "SQL"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Elaborer un MCD correspondant à des attentes",
+                "Construire une BD",
+                "Comprendre la qualité des données"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Elaborer un MCD complet, afin de ne pas avoir à revenir sur ses pas ensuite"
             ],
             "tools": [
                 "Microsoft SQL Server(SGBD)",
                 "XMind(MindMap design)",
-                "undef"
+                "WinDesign (Conception MCD)"
             ],
             "descriptionImages": [
                 "res/img/projects/billetconcert.png"
@@ -287,30 +302,26 @@
             "language": "none",
             "thumb": "res/img/projects/capgemini.png",
             "containerId": "gestion-com",
-            "description": "capgemini",
-            "catchPhrase": "catchphrase",
+            "description": "J'ai dû présenter une entreprise du secteur numérique française : Capgemini. Ensuite, une analyse de son macro et micro-environnement a permis de déterminer les forces et faiblesses de l'entreprise sur le plan stratégique.",
+            "catchPhrase": "analyse stratégique",
             "infos": {
-                "goal": "Undef",
-                "date": "Undef",
-                "timeLimit": "Undef",
-                "team": "Undef",
-                "context": "Undef",
-                "languages": "Undef"
+                "goal": "Analyser l'environnement d'une entreprise",
+                "date": "sept. 2022",
+                "timeLimit": "2 mois",
+                "team": "5",
+                "context": "académique",
+                "languages": "Aucun"
             },
             "contribs": [
-                "undef",
-                "undef",
-                "undef"
+                "Comprendre les enjeux stratégiques d'une organisation",
+                "Trouver ses opportunités/menaces et forces/faiblesses",
+                "Rédiger un rapport construit"
             ],
             "improves": [
-                "undef",
-                "undef",
-                "undef"
+                "Etre plus synthétique dans la rapport"
             ],
             "tools": [
-                "undef",
-                "undef",
-                "undef"
+                "Google Docs (Traitement de texte)"
             ],
             "descriptionImages": [
                 "res/img/projects/capgemini.png"
