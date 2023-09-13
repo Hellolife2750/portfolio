@@ -129,6 +129,39 @@
             ]
         },
         {
+            "title": "Hyperstellar",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "cs",
+            "thumb": "res/img/projects/hyperstellar.png",
+            "containerId": "video-games",
+            "description": "Hyperstellar est un jeu de plateau se jouant de 2 à 5 joueurs. J'ai eu l'occasion de designer les menus du jeu et coder ses fonctionnalités principales. J'ai ainsi appris à collaborer de façon poussée grâce à Git, ainsi qu'à créer une interface avec Visual Studio.",
+            "catchPhrase": "Stratégie lunaire",
+            "infos": {
+                "goal": "Collaborer afin de répondre à un besoin",
+                "date": "mai. 2023",
+                "timeLimit": "3 semaines",
+                "team": "4",
+                "context": "académique",
+                "languages": "C#"
+            },
+            "contribs": [
+                "Analyser un besoin",
+                "Travailler simultanément sur un projet",
+                "Designer une application Visual Studio"
+            ],
+            "improves": [
+                "Consacrer plus de temps à l'analyse du besoin"
+            ],
+            "tools": [
+                "Visual Studio (IDE)",
+                "Git (Gestionnaire de versions)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/hyperstellar.png"
+            ]
+        },
+        {
             "title": "Odomo",
             "date": 2022,
             "purpose": "educational",
