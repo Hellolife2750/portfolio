@@ -1,14 +1,12 @@
-# Mon portfolio !
+# Portfolio de Clément Aubr
 
 ## Je me présente
 
-Salut moi c'est Clément ! J'ai 18 ans et j'aime l'informatique. Dans la vie de tous les jours, j'aime programmer. J'ai commencé à coder aux alentours de mes 15 ans. J'avance petit à petit en codant des projets personnels toujours plus ambitieux !
+Bonjour à tous, je m'appelle Clément et je suis passionné d'informatique depuis l'âge de 15 ans. Actuellement, j'ai 18 ans et je suis en seconde année de BUT Informatique. Dans la vie de tous les jours, j'aime me challenger en codant des projets personnels toujours plus ambitieux !
 
-Sinon, j'ai également la **CHANCE** d'être en IUT informatique, où j'apprends énormément de choses. J'ai une [chaine Youtube](https://www.youtube.com/channel/UCIxZRrYtMjIFYaABfA2hjFQ/) sur laquelle je transmets ma passion sous un format divertissant. Je vous invite également à aller voir mes jeux sur [itch.io](https://hellolife2750.itch.io/).
+J'ai également une [chaine Youtube](https://www.youtube.com/channel/UCIxZRrYtMjIFYaABfA2hjFQ/) sur laquelle je transmets ma passion sous un format divertissant. Je vous invite également à aller voir mes jeux sur [itch.io](https://hellolife2750.itch.io/). A temps perdu, j'aime également lire et dessiner.
 
 ## Mes compétences
-
-Etant donné mon statut d'étudiant, je suis limité par le temps de travail personnel à fournir. Néanmoins, je possède qeulques compétences qui peuvent s'avérer utiles :
 
 ### Langages
 
@@ -23,5 +21,12 @@ Etant donné mon statut d'étudiant, je suis limité par le temps de travail per
 
 - Bases de l'utilisation de **Git** afin de travailler en collaboration sur un même projet
 - Bases en **montage vidéo** et en **dessin vectoriel**
+- Maitrise des logiciels de **bureautique** (Word, Excel, Powerpoint)
 
-_août 2023_
+### Compétences humaines
+
+- Méticuleux
+- Curieux
+- Flexible
+
+_Clément Aubr 2023_
