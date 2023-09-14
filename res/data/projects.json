@@ -392,6 +392,37 @@
             ]
         },
         {
+            "title": "Ça date",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "javascript",
+            "thumb": "res/img/projects/cadate.png",
+            "containerId": "web",
+            "description": "Ça date est un site web dans lequel on peut jouer à seul, ou à plusieurs. Le but est de deviner la date d'invention des objets proposés. Un classement final est ensuite établi.",
+            "catchPhrase": "Trouve la date",
+            "infos": {
+                "goal": "Enrichir ses connaissances historiques",
+                "date": "août. 2023",
+                "timeLimit": "1 semaine",
+                "team": "seul",
+                "context": "personnal",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Utilisation des Coockies pour stocker les préférences utilisateur",
+                "Système d'interaction poussé avec la page"
+            ],
+            "improves": [
+                "Développer un mode multijoueur en ligne"
+            ],
+            "tools": [
+                "VS Code (IDE)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/cadate.png"
+            ]
+        },
+        {
             "title": "Rapport d'analyse",
             "date": 2022,
             "purpose": "educational",
