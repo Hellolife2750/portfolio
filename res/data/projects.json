@@ -361,6 +361,37 @@
             ]
         },
         {
+            "title": "Freepic",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "html",
+            "thumb": "res/img/projects/freepic.png",
+            "containerId": "web",
+            "description": "Freepic est un site web où je publie mes dessins vectoriels. N'importe qui peut les télécharger en .SVG ou .PNG. Ces dessins sont notamment issus des jeux vidéos que je code.",
+            "catchPhrase": "Dessins gratuits !",
+            "infos": {
+                "goal": "Publier mes dessins",
+                "date": "août. 2023",
+                "timeLimit": "1 semaine",
+                "team": "seul",
+                "context": "personnal",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Rassembler tous mes dessins à un même endroit",
+                "Convertir une image .SVG en .PNG en Javascript"
+            ],
+            "improves": [
+                "Ajouter un système de recherche des images par nom"
+            ],
+            "tools": [
+                "VS Code (IDE)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/freepic.png"
+            ]
+        },
+        {
             "title": "Rapport d'analyse",
             "date": 2022,
             "purpose": "educational",
