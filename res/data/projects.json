@@ -329,6 +329,38 @@
             ]
         },
         {
+            "title": "DevStats",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "javascript",
+            "thumb": "res/img/projects/devstats.png",
+            "containerId": "web",
+            "description": "DevStats est une extension chrome affichant des statistiques sur les sites pour programmeurs visités. Elle inclut des graphiques statistiques, une exportation au format .CSV et la personnalisation des sites suivis.",
+            "catchPhrase": "Extension pour développeurs",
+            "infos": {
+                "goal": "Créer une extension chrome",
+                "date": "mai. 2023",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "personnal",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Coder un extension Chrome manifest 3",
+                "Utiliser canvas pour exporter des images",
+                "Utiliser ChartJS pour tracer des graphiques"
+            ],
+            "improves": [
+                "Ajouter des fonctionnalités plus complètes"
+            ],
+            "tools": [
+                "VS Code (IDE)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/devstats.png"
+            ]
+        },
+        {
             "title": "Rapport d'analyse",
             "date": 2022,
             "purpose": "educational",
