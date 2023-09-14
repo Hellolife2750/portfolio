@@ -261,6 +261,37 @@
             ]
         },
         {
+            "title": "1Jour, 1Mot",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "godot",
+            "thumb": "res/img/projects/1jour1mot.png",
+            "containerId": "algorithmic",
+            "description": "1Jour, 1Mot est application android développée sur Godot Engine. Elle propose d'apprendre un nouveau mot chaque jour, en révisant ceux appris les jours précédents.",
+            "catchPhrase": "Appli d'érudit !",
+            "infos": {
+                "goal": "Améliorer son vocabulaire",
+                "date": "août. 2023",
+                "timeLimit": "2 semaines",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "GDScript"
+            },
+            "contribs": [
+                "Développer une application android",
+                "Gérer une structure de données complète"
+            ],
+            "improves": [
+                "Améliorer le système de sauvegarde et de restauration des données"
+            ],
+            "tools": [
+                "Godot Engine 3 (Moteur de jeu)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/1jour1mot.png"
+            ]
+        },
+        {
             "title": "Site 2IVF",
             "date": 2022,
             "purpose": "educational",
@@ -342,7 +373,7 @@
                 "date": "mai. 2023",
                 "timeLimit": "3 semaines",
                 "team": "seul",
-                "context": "personnal",
+                "context": "personnel",
                 "languages": "HTML/CSS/JS"
             },
             "contribs": [
@@ -374,7 +405,7 @@
                 "date": "août. 2023",
                 "timeLimit": "1 semaine",
                 "team": "seul",
-                "context": "personnal",
+                "context": "personnel",
                 "languages": "HTML/CSS/JS"
             },
             "contribs": [
@@ -405,7 +436,7 @@
                 "date": "août. 2023",
                 "timeLimit": "1 semaine",
                 "team": "seul",
-                "context": "personnal",
+                "context": "personnel",
                 "languages": "HTML/CSS/JS"
             },
             "contribs": [
