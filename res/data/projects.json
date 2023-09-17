@@ -164,7 +164,8 @@
             "contribs": [
                 "Analyser un besoin",
                 "Travailler simultanément sur un projet",
-                "Designer une application Visual Studio"
+                "Designer une application Visual Studio",
+                "Etablir le diagramme de classe UML d'une application"
             ],
             "improves": [
                 "Consacrer plus de temps à l'analyse du besoin"
@@ -175,6 +176,39 @@
             ],
             "descriptionImages": [
                 "res/img/projects/hyperstellar.png"
+            ]
+        },
+        {
+            "title": "Jeu de la grenouille",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "java",
+            "thumb": "res/img/projects/jpo.png",
+            "containerId": "video-games",
+            "description": "Le jeu de la grenouille est un mini-jeu en console codé en Java pour faire découvrir les bases de la programmation aux élèves lors de la journée portes ouvertes de l'IUT de Bordeaux.",
+            "catchPhrase": "Les bases",
+            "infos": {
+                "goal": "Faire découvrir la programmation",
+                "date": "mars. 2023",
+                "timeLimit": "3 semaines",
+                "team": "4",
+                "context": "académique",
+                "languages": "Java"
+            },
+            "contribs": [
+                "Proposer un jeu pédagogique",
+                "Créer une documentation claire",
+                "Utiliser des mécaniques simples"
+            ],
+            "improves": [
+                "Coordination lors du projet"
+            ],
+            "tools": [
+                "NetBeans (IDE Java)",
+                "Inkscape (Editeur d'images vectorielles)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/jpo.png"
             ]
         },
         {
@@ -305,6 +339,70 @@
             ],
             "descriptionImages": [
                 "res/img/projects/1jour1mot.png"
+            ]
+        },
+        {
+            "title": "Installation réseau",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "res/img/projects/nextcloud.png",
+            "containerId": "algorithmic",
+            "description": "L'objectif a été de configurer un réseau virtuel afin de pouvoir accéder à un serveur depuis un client, et pouvoir utiliser des logiciels de bureautique sur ce dernier.",
+            "catchPhrase": "Agrandir son réseau",
+            "infos": {
+                "goal": "Mettre en place un réseau",
+                "date": "avril. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "Bash"
+            },
+            "contribs": [
+                "Elaborer un plan d'adressage",
+                "Configuration des adresses IP sur Linux",
+                "Ecrire une documentation en Markdown"
+            ],
+            "improves": [
+                "Meilleure mise en page Markdown"
+            ],
+            "tools": [
+                "QEMU (logiciel de virtualisation système)",
+                "NEmu (logiciel de virtualisation réseau)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/nextcloud.png"
+            ]
+        },
+        {
+            "title": "Parcours Graphe",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "res/img/projects/graphe.png",
+            "containerId": "algorithmic",
+            "description": "Durant ce projet, j'ai eu l'occasion d'utiliser une bibliothèque Java permettant de modéliser des graphes. Il a fallu programmer des algorithmes de parcours en largeur et en profondeur afin de trouver le chemin le plus cours entre 2 noeuds.",
+            "catchPhrase": "Tracer son chemin",
+            "infos": {
+                "goal": "Représenter un graphe en algorithmie",
+                "date": "mai. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "Bash"
+            },
+            "contribs": [
+                "Découverte des algorithemes de parcours",
+                "Utilisation des interface Java (comparator,iterator)"
+            ],
+            "improves": [
+                "Tests unitaires imprécis"
+            ],
+            "tools": [
+                "NetBeans (IDE Java)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/graphe.png"
             ]
         },
         {
@@ -499,6 +597,40 @@
             ],
             "descriptionImages": [
                 "res/img/projects/capgemini.png"
+            ]
+        },
+        {
+            "title": "Application Comput-r",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "cs",
+            "thumb": "res/img/projects/computr.png",
+            "containerId": "gestion-com",
+            "description": "Une mission nous a été confiée : réaliser une application permettant à une société fictive de promouvoir les dangers écologiques dus aux équipements électroniques. Ainsi, nous avons dû créer une base de données contenant des statistiques écologies, puis traiter et afficher ces données dans un logiciel.",
+            "catchPhrase": "écologie ordonnée",
+            "infos": {
+                "goal": "Mener à bien un projet ambitieux",
+                "date": "juin. 2023",
+                "timeLimit": "2 semaines",
+                "team": "5",
+                "context": "académique",
+                "languages": "C#, Python, SQL"
+            },
+            "contribs": [
+                "Rélisation d'un Plan de projet",
+                "S'organiser en équipe",
+                "Lier une application C# à du code Python effectuant des requêtes SQL"
+            ],
+            "improves": [
+                "Se concentrer d'abord sur les fonctionnalités plus que l'esthétisme"
+            ],
+            "tools": [
+                "Visual Studio (IDE)",
+                "Git (Gestionnaire de versions)",
+                "Mindview (Outil de gestion de projets)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/computr.png"
             ]
         }
     ]
