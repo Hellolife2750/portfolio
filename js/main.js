@@ -44,16 +44,17 @@ fetch('res/data/projects.json')
         let lastCard;
         let container;
 
-        cards.forEach(card => {
-            container = document.querySelector(`#${card.containerId} .cards-container`);
-            container.insertAdjacentHTML('beforeend', generateCardCode(card));
-            lastCard = container.lastElementChild;
-            //cardsElements.push(lastCard);
-            /*lastCard.addEventListener('click', function (event) {
-                console.log(event.target)
-            });*/
+        // cards.forEach(card => {
+        //     container = document.querySelector(`#${card.containerId} .cards-container`);
+        //     container.insertAdjacentHTML('beforeend', generateCardCode(card));
+        //     lastCard = container.lastElementChild;
 
-        });
+
+        // });
+        //cardsElements.push(lastCard);
+        /*lastCard.addEventListener('click', function (event) {
+            console.log(event.target)
+        });*/
 
         allSkills.forEach(skill => {
             skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(skill));
@@ -69,6 +70,8 @@ fetch('res/data/projects.json')
                 skillContainerLeaved(skillContainer);
             });
         });
+
+        showDefaultProjects();
     })
     .catch(error => console.error("MyError : Unable to load projects' card content :", error));
 
@@ -492,3 +495,64 @@ portraitImg.addEventListener('mouseleave', () => {
 -ne pas mettre les noms des projets mais des trucs originaux
 -faire le responsive
 */
+
+//Projets par mots clés
+var activesKeywords = [];
+var languagesFiltersBtns = document.querySelectorAll("#projects-filters .sticked-button"); //.down-row .sticked-buttons-container > button");
+
+languagesFiltersBtns.forEach(filterBtn => {
+    filterBtn.addEventListener("click", () => {
+        selectFilter(filterBtn);
+    });
+});
+
+function selectFilter(filterBtn) {
+    if (filterBtn.classList.contains("selected")) {
+        filterBtn.classList.remove("selected");
+        activesKeywords.splice(activesKeywords.indexOf(filterBtn.innerText.toLowerCase().trim()), 1);
+        console.log(activesKeywords.indexOf(filterBtn.innerText.toLowerCase()))
+
+    } else {
+        filterBtn.classList.add("selected");
+        filterBtn.classList.add("poped");
+
+        activesKeywords.push(filterBtn.innerText.toLowerCase().trim());
+        setTimeout(function () {
+            filterBtn.classList.remove("poped");
+        }, 200);
+    }
+
+    console.log(activesKeywords);
+    updateShownProjects();
+}
+
+function normalizeString(str) {
+    return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function updateShownProjects() {
+    let container = document.getElementById("cards-container");
+    container.innerHTML = "";
+    activesKeywords = activesKeywords.map(keyword => normalizeString(keyword));
+
+    cards.forEach(card => {
+        let cardKeywords = card.keyWords.map(keyword => normalizeString(keyword));
+
+        if (cardKeywords.some(keyword => activesKeywords.includes(keyword))) {
+            container.insertAdjacentHTML('beforeend', generateCardCode(card));
+            lastCard = container.lastElementChild;
+        }
+    });
+}
+
+function showDefaultProjects() {
+    let container = document.getElementById("cards-container");
+    container.innerHTML = "";
+    let tempKeyWords = ["javascript"];
+    cards.forEach(card => {
+        let cardKeywords = card.keyWords.map(keyword => normalizeString(keyword));
+        if (cardKeywords.some(keyword => tempKeyWords.includes(keyword))) {
+            container.insertAdjacentHTML('beforeend', generateCardCode(card));
+        }
+    });
+}

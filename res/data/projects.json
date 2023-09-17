@@ -114,6 +114,14 @@
             ],
             "descriptionImages": [
                 "res/img/projects/cloudChaos.png"
+            ],
+            "keyWords": [
+                "gdscript",
+                "jeu",
+                "dessin",
+                "personnel",
+                "android",
+                "application"
             ]
         },
         {
@@ -148,6 +156,13 @@
             ],
             "descriptionImages": [
                 "res/img/projects/seedKeeper.png"
+            ],
+            "keyWords": [
+                "gdscript",
+                "jeu",
+                "dessin",
+                "personnel",
+                "application"
             ]
         },
         {
@@ -182,6 +197,15 @@
             ],
             "descriptionImages": [
                 "res/img/projects/hyperstellar.png"
+            ],
+            "keyWords": [
+                "c#",
+                "jeu",
+                "dessin",
+                "scolaire",
+                "plateau",
+                "stratégie",
+                "IHM"
             ]
         },
         {
@@ -215,6 +239,13 @@
             ],
             "descriptionImages": [
                 "res/img/projects/jpo.png"
+            ],
+            "keyWords": [
+                "java",
+                "jeu",
+                "dessin",
+                "scolaire",
+                "pédago"
             ]
         },
         {
@@ -248,6 +279,13 @@
             ],
             "descriptionImages": [
                 "res/img/projects/odomo.png"
+            ],
+            "keyWords": [
+                "java",
+                "scolaire",
+                "ecologie",
+                "environnement",
+                "meteo"
             ]
         },
         {
@@ -282,6 +320,18 @@
             ],
             "descriptionImages": [
                 "res/img/projects/biosphere7.png"
+            ],
+            "keyWords": [
+                "java",
+                "jeu",
+                "plateau",
+                "stratégie",
+                "scolaire",
+                "ecologie",
+                "environnement",
+                "IA",
+                "intelligence",
+                "artificielle"
             ]
         },
         {
@@ -314,6 +364,14 @@
             ],
             "descriptionImages": [
                 "res/img/projects/butgames.png"
+            ],
+            "keyWords": [
+                "bash",
+                "système",
+                "linux",
+                "vmware",
+                "scolaire",
+                "administrateur"
             ]
         },
         {
@@ -345,6 +403,14 @@
             ],
             "descriptionImages": [
                 "res/img/projects/1jour1mot.png"
+            ],
+            "keyWords": [
+                "gdscript",
+                "jeu",
+                "android",
+                "application",
+                "éducatif",
+                "personnel"
             ]
         },
         {
@@ -378,13 +444,23 @@
             ],
             "descriptionImages": [
                 "res/img/projects/nextcloud.png"
+            ],
+            "keyWords": [
+                "bash",
+                "réseau",
+                "serveur",
+                "scolaire",
+                "nemu",
+                "qemu",
+                "linux",
+                "configuration"
             ]
         },
         {
             "title": "Parcours Graphe",
             "date": 2023,
             "purpose": "educational",
-            "language": "bash",
+            "language": "java",
             "thumb": "res/img/projects/graphe.png",
             "containerId": "algorithmic",
             "description": "Durant ce projet, j'ai eu l'occasion d'utiliser une bibliothèque Java permettant de modéliser des graphes. Il a fallu programmer des algorithmes de parcours en largeur et en profondeur afin de trouver le chemin le plus cours entre 2 noeuds.",
@@ -395,7 +471,7 @@
                 "timeLimit": "3 semaines",
                 "team": "2",
                 "context": "académique",
-                "languages": "Bash"
+                "languages": "Java"
             },
             "contribs": [
                 "Découverte des algorithemes de parcours",
@@ -409,6 +485,15 @@
             ],
             "descriptionImages": [
                 "res/img/projects/graphe.png"
+            ],
+            "keyWords": [
+                "java",
+                "math",
+                "graphe",
+                "scolaire",
+                "algorithmie",
+                "parcours",
+                "chemin"
             ]
         },
         {
@@ -443,6 +528,17 @@
             ],
             "descriptionImages": [
                 "res/img/projects/2ivf.png"
+            ],
+            "keyWords": [
+                "html/css",
+                "html",
+                "css",
+                "site",
+                "web",
+                "gestion",
+                "pestel",
+                "capgemini",
+                "scolaire"
             ]
         },
         {
@@ -477,6 +573,17 @@
             ],
             "descriptionImages": [
                 "res/img/projects/billetconcert.png"
+            ],
+            "keyWords": [
+                "sql",
+                "billet",
+                "concert",
+                "base",
+                "données",
+                "microsoft",
+                "server",
+                "requêtes",
+                "scolaire"
             ]
         },
         {
@@ -509,6 +616,19 @@
             ],
             "descriptionImages": [
                 "res/img/projects/devstats.png"
+            ],
+            "keyWords": [
+                "html/css",
+                "html",
+                "css",
+                "js",
+                "javascript",
+                "extension",
+                "chrome",
+                "site",
+                "web",
+                "statistiques",
+                "personnel"
             ]
         },
         {
@@ -540,6 +660,18 @@
             ],
             "descriptionImages": [
                 "res/img/projects/freepic.png"
+            ],
+            "keyWords": [
+                "html/css",
+                "html",
+                "css",
+                "js",
+                "javascript",
+                "site",
+                "web",
+                "partage",
+                "dessin",
+                "personnel"
             ]
         },
         {
@@ -571,6 +703,19 @@
             ],
             "descriptionImages": [
                 "res/img/projects/cadate.png"
+            ],
+            "keyWords": [
+                "html/css",
+                "html",
+                "css",
+                "js",
+                "javascript",
+                "site",
+                "web",
+                "partage",
+                "culture",
+                "date",
+                "personnel"
             ]
         },
         {
@@ -603,6 +748,14 @@
             ],
             "descriptionImages": [
                 "res/img/projects/capgemini.png"
+            ],
+            "keyWords": [
+                "rapport",
+                "gestion",
+                "analyse",
+                "étude",
+                "capgemini",
+                "scolaire"
             ]
         },
         {
@@ -637,6 +790,18 @@
             ],
             "descriptionImages": [
                 "res/img/projects/computr.png"
+            ],
+            "keyWords": [
+                "c#",
+                "python",
+                "sql",
+                "computr",
+                "données",
+                "écologie",
+                "environnement",
+                "Visual Studio",
+                "VS",
+                "scolaire"
             ]
         }
     ]

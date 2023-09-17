@@ -471,13 +471,120 @@ span.fade-up {
   border-radius: 0 5px 5px 0;
 }
 
-#projects .cards-container {
+#projects #cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 3%;
-  height: 0px; /*enlever ces 2 lignes*/
-  opacity: 0;
+  height: auto; /*enlever ces 2 lignes*/
+  opacity: 1;
+}
+
+#projects .projects-section {
+  width: 70%;
+}
+
+#projects-filters {
+  width: 70%;
+  background-color: var(--primary);
+  margin-bottom: 3%;
+  padding: 2%;
+  border-radius: 2rem;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+
+#projects-filters .up-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#projects-filters .sticked-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticked-button {
+  border-radius: 0;
+  border: 0;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  color: var(--secondary);
+  font-size: 1rem;
+  font-weight: bold;
+
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.sticked-button:hover {
+  background-color: whitesmoke;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.sticked-button.selected {
+  background-color: var(--secondary);
+  color: white;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.sticked-button.selected.poped {
+  scale: 1.1;
+  transition: all 0.1s ease-in-out;
+}
+
+/*.sticked-button.selected:hover {
+  background-color: whitesmoke;
+}*/
+
+.sticked-buttons-container .sticked-button:first-of-type {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.sticked-buttons-container .sticked-button:last-of-type {
+  border-radius: 0 2rem 2rem 0;
+}
+
+.up-row .sticked-button {
+  width: 8rem;
+}
+
+.down-row .sticked-button {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+/* .classic-button {
+  color: whitesmoke;
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
+  text-align: center;
+  border-radius: 2rem;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.classic-button:hover {
+  color: #2b81e9;
+  background-color: whitesmoke;
+  font-weight: bold;
+  scale: 1.05;
+
+  transition: all 0.3s ease-in-out;
+} */
+
+#search-project-input {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  width: 60%;
+  padding: 1rem;
 }
 
 #projects .card {
@@ -836,6 +943,7 @@ footer .content > .right {
   margin-bottom: 5px;
 }
 
+.text-input,
 #contact input,
 #contact textarea {
   border-radius: 2rem;
@@ -849,6 +957,7 @@ footer .content > .right {
   transition: all 0.5s ease-in-out 0.2s;
 }
 
+.text-input:focus,
 #contact input:focus,
 #contact textarea:focus {
   box-shadow: 0px 0px 10px white;
