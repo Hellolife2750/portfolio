@@ -265,7 +265,8 @@ span.fade-up {
   font-weight: bold;
 }
 
-.one-skill .progress-bar-empty {
+.progress-bar-empty {
+  /*.one-skill*/
   width: 80%;
   height: 1rem;
   border-radius: 2rem;
@@ -295,6 +296,8 @@ span.fade-up {
   font-weight: bold;
   max-width: 25vw;
   display: none;
+  backdrop-filter: blur(4px);
+  --webkit-backdrop-filter: blur(4px);
 
   transition: all 0.1s ease-in-out;
 }
@@ -395,6 +398,143 @@ span.fade-up {
 
 #aboutme .dl-button {
   margin-bottom: 3%;
+}
+
+/*compétences*/
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills .section-title {
+  margin-bottom: 3%;
+}
+
+#choose-skills-container {
+  width: 70%;
+  background-color: var(--primary);
+  margin-bottom: 3%;
+  padding: 2%;
+  border-radius: 2rem;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  display: flex;
+  justify-content: center;
+}
+
+#sticked-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills .sticked-button {
+  width: 10rem;
+  font-size: 1.2rem;
+}
+
+.sticked-button {
+  outline: none;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  color: var(--secondary);
+  font-size: 1rem;
+  font-weight: bold;
+
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.sticked-button:hover {
+  background-color: whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+.sticked-button.selected {
+  background-color: var(--secondary);
+  color: white;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.sticked-button.selected.poped {
+  scale: 1.1;
+  transition: all 0.1s ease-in-out;
+}
+
+.sticked-buttons-container .sticked-button:first-of-type {
+  border-radius: 2rem 0 0 2rem;
+  margin-right: -2px;
+}
+
+.sticked-buttons-container .sticked-button:last-of-type {
+  border-radius: 0 2rem 2rem 0;
+  margin-left: -2px;
+}
+
+#detailed-skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+#detailed-skills-container .skill-card {
+  width: 12%;
+  min-width: 100px;
+  /* min-width: 200px; */
+  margin: 3%;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem; /*2%*/
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*scale: 0.3;*/
+  animation: popScale 0.3s cubic-bezier(0.3, 0.56, 0.23, 0.63);
+
+  transition: all 0.3s ease-in-out 0.2s;
+}
+
+#detailed-skills-container .skill-card:hover {
+  transform: translateY(-10px);
+}
+
+@keyframes popScale {
+  0% {
+    transform: scale(0.1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+#detailed-skills-container .skill-card-img {
+  width: 100%;
+}
+
+#detailed-skills-container .skill-tag {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+#detailed-skills-container .progress-bar-empty {
+  height: 0.4rem;
 }
 
 /*projets*/

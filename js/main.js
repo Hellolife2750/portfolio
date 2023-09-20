@@ -31,8 +31,10 @@ const purposes = {
 
 var cards;
 var allSkills;
+var allSoftwares;
 var allSkillsContainers;
 const skillsContainer = document.getElementById('skills-container');
+const NB_SKILLS_TO_PREVIEW = 3;
 
 //var cardsElements = [];
 /*récupère le informations sur les projets contenues dans le fichier json*/
@@ -41,6 +43,7 @@ fetch('res/data/projects.json')
     .then(data => {
         cards = data.projects;
         allSkills = data.skills;
+        allSoftwares = data.softwares;
         let lastCard;
         let container;
 
@@ -55,9 +58,17 @@ fetch('res/data/projects.json')
 
         });
 
+        for (i = 0; i < NB_SKILLS_TO_PREVIEW; i++) {
+            skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(allSkills[i]));
+        }
+
+        /*let nbSkills = 0;
         allSkills.forEach(skill => {
-            skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(skill));
-        });
+            nbSkills++;
+            if (nbSkills <= NB_SKILLS_TO_PREVIEW) {
+                skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(skill));
+            }
+        });*/
         //addToDom();
         //console.log(cardsElements)
         allSkillsContainers = document.querySelectorAll('.one-skill');
@@ -69,6 +80,7 @@ fetch('res/data/projects.json')
                 skillContainerLeaved(skillContainer);
             });
         });
+        updateShownSkills();
     })
     .catch(error => console.error("MyError : Unable to load projects' card content :", error));
 
@@ -492,3 +504,102 @@ portraitImg.addEventListener('mouseleave', () => {
 -ne pas mettre les noms des projets mais des trucs originaux
 -faire le responsive
 */
+
+/*compétences*/
+const chooseSkillButtons = document.querySelectorAll("#choose-skills-container .sticked-button");
+var currentSkillChosen = document.getElementById("languages-btn");
+const detailedKkillsContainer = document.getElementById("detailed-skills-container");
+
+chooseSkillButtons.forEach(chooseSkillButton => {
+    chooseSkillButton.addEventListener("click", () => {
+        selectSkill(chooseSkillButton);
+    });
+});
+
+function selectSkill(chooseSkillButton) {
+    if (!chooseSkillButton.classList.contains("selected")) {
+        deselectAllChoosSkillsButton();
+        chooseSkillButton.classList.add("selected");
+        chooseSkillButton.classList.add("poped");
+        currentSkillChosen = chooseSkillButton;
+
+        setTimeout(function () {
+            chooseSkillButton.classList.remove("poped");
+        }, 200);
+
+        updateShownSkills();
+    }
+}
+
+function deselectAllChoosSkillsButton() {
+    chooseSkillButtons.forEach(chooseSkillButton => {
+        chooseSkillButton.classList.remove("selected");
+    });
+}
+
+var tooltipItems;
+var allSkillsCards;
+function updateShownSkills() {
+    detailedKkillsContainer.innerHTML = "";
+    if (currentSkillChosen.id === "languages-btn") {
+        allSkills.forEach((skill, index) => {
+            setTimeout(() => {
+                detailedKkillsContainer.insertAdjacentHTML('beforeend', generateDetailedSkillCode(skill));
+            }, index * 0);
+        });
+    } else if (currentSkillChosen.id === "sofwares-btn") {
+        allSoftwares.forEach((skill, index) => {
+            setTimeout(() => {
+                detailedKkillsContainer.insertAdjacentHTML('beforeend', generateDetailedSoftwareCode(skill));
+            }, index * 0);
+        });
+    }
+}
+
+function upD() {
+    tooltipItems = document.querySelectorAll('.tooltip-item');
+    console.log(tooltipItems)
+    tooltipItems.forEach(item => {
+        item.addEventListener('mouseenter', showTooltip);
+        item.addEventListener('mouseleave', hideTooltip);
+    });
+}
+
+/*function showTooltip(event) {
+    skillsTooltip.innerText = event.target.getAttribute('data-tooltip-content');
+    skillsTooltip.style.display = 'block';
+}*/
+
+function showTooltip(theCard) {
+    skillsTooltip.innerText = theCard.getAttribute('data-tooltip-content');
+    skillsTooltip.style.display = 'block';
+}
+
+function hideTooltip() {
+    skillsTooltip.style.display = 'none';
+}
+
+function generateDetailedSkillCode(skill) {
+    let code = `
+     <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+         <img src="res/img/languages/${skill.language}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
+         <p class="skill-tag">${skill.overTitle}</p>
+
+         <div class="progress-bar-empty">
+             <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
+         </div>
+     </div>
+     `
+    return code;
+}
+
+function generateDetailedSoftwareCode(skill) {
+    let code = `
+     <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+         <img src="res/img/softwares/${skill.software}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
+         <p class="skill-tag">${skill.overTitle}</p>
+     </div>
+     `
+    return code;
+}
+

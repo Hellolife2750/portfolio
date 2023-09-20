@@ -39,6 +39,111 @@
             "bgColor": "",
             "description": "SQL permet d'effectuer des requêtes à une base de données. [Bases]",
             "overTitle": "SQL"
+        },
+        {
+            "language": "cs",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "C# est utile pour la mise en place d'interfaces hommes-machines. [Bases, POO]",
+            "overTitle": "C#"
+        },
+        {
+            "language": "bash",
+            "progress": 40,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Bash permet d'effectuer des manipulations consoles sur Linux. [Bases]",
+            "overTitle": "Bash"
+        },
+        {
+            "language": "godot",
+            "progress": 40,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "GDScript est le langage du moteur de jeux vidéos Godot Engine. [Bases]",
+            "overTitle": "GDScript"
+        },
+        {
+            "language": "cpp",
+            "progress": 20,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "C++ est un langage plutôt bas niveau utilisé pour la programmation d'applications. [Bases]",
+            "overTitle": "C++"
+        },
+        {
+            "language": "markdown",
+            "progress": 20,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Markdown permet la mise en page de documents simples. [Bases]",
+            "overTitle": "Markdown"
+        }
+    ],
+    "softwares": [
+        {
+            "software": "vscode",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "VS Code est un éditeur de code extensible multiplateforme fortement répandu.",
+            "overTitle": "VS Code"
+        },
+        {
+            "software": "visual-studio",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Visual Studio est un IDE orienté programmation en C. Il est notamment utilisé pour créer des applications graphiques.",
+            "overTitle": "Visual Studio"
+        },
+        {
+            "software": "git",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Git est un outil de gestion de versions et de travail collaboratif.",
+            "overTitle": "Git"
+        },
+        {
+            "software": "notion",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Notion est une application de prises de notes pouvant être utilisée pour améliorer sa productivité.",
+            "overTitle": "Notion"
+        },
+        {
+            "software": "windesign",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "WinDesign est un logiciel permettant la modélisation de bases de données sous forme de MCD.",
+            "overTitle": "WinDesign"
+        },
+        {
+            "software": "vmware",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "VMWare permet l'émulation des machines virtuelles à des fins de tests.",
+            "overTitle": "VMWare"
+        },
+        {
+            "software": "mindview",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Mindview est un logiciel de gestion de projet permettant de créer des diagrammes de Gantt.",
+            "overTitle": "Mindview"
+        },
+        {
+            "software": "netbeans",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Netbeans est un IDE conçu pour Java.",
+            "overTitle": "Netbeans"
+        },
+        {
+            "software": "sql-server",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "SQL Server est un SGBD permettant d'effectuer des traitements sur des bases de données.",
+            "overTitle": "SQL Server"
         }
     ],
     "projects": [
