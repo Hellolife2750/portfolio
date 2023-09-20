@@ -498,13 +498,18 @@ portraitImg.addEventListener('mouseleave', () => {
 
 //Projets par mots clés
 var activesKeywords = [];
-var languagesFiltersBtns = document.querySelectorAll("#projects-filters .sticked-button"); //.down-row .sticked-buttons-container > button");
+var statusFiltersBtns = document.querySelectorAll("#projects-filters .up-row .sticked-button");
+var languagesFiltersBtns = document.querySelectorAll("#projects-filters .down-row .sticked-button"); //.down-row .sticked-buttons-container > button");
 
 languagesFiltersBtns.forEach(filterBtn => {
     filterBtn.addEventListener("click", () => {
         selectFilter(filterBtn);
     });
 });
+
+/*statusFiltersBtns.forEach(statusFilterBtn => {
+    statusFilterBtn.addEventListener("click", ())
+});*/
 
 function selectFilter(filterBtn) {
     if (filterBtn.classList.contains("selected")) {
@@ -555,4 +560,24 @@ function showDefaultProjects() {
             container.insertAdjacentHTML('beforeend', generateCardCode(card));
         }
     });
+}
+
+const searchProjectInput = document.getElementById('search-project-input');
+
+searchProjectInput.addEventListener('keydown', function (event) {
+    if (event.keyCode === 13) { //touche entrée
+        const inputValue = searchProjectInput.value.trim();
+        if (inputValue !== '') {
+            updateActiveKeywords();
+        }
+    }
+});
+
+function updateActiveKeywords() {
+    const mots = searchProjectInput.value.split(' ');
+
+    mots.forEach(function (mot) {
+        activesKeywords.push(mot.toLowerCase().trim());
+    });
+    updateShownProjects();
 }
