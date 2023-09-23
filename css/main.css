@@ -814,11 +814,19 @@ span.fade-up {
 
 #popup-card .preview {
   width: 45%;
+  overflow: hidden;
+  border-radius: 1rem;
 }
 
 #popup-card .thumb {
   width: 100%;
   border-radius: 1rem;
+  transition: scale 0.5s ease-in-out 0.2s;
+}
+
+#popup-card .thumb:hover {
+  scale: 1.1;
+  transition: scale 0.5s ease-in-out;
 }
 
 #popup-card .right-half {
@@ -1426,6 +1434,21 @@ footer i[class*="github"]:hover {
   /*projects*/
   #projects .card {
     width: 90%;
+  }
+
+  /*skills*/
+
+  #skills .sticked-buttons-container {
+    width: 100%;
+  }
+
+  #skills .sticked-button {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+
+  #detailed-skills-container {
+    width: 80%;
   }
 
   /*footer*/
