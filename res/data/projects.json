@@ -148,7 +148,7 @@
     ],
     "projects": [
         {
-            "title": "AquaRescue",
+            "title": "Jeu C++",
             "date": 2021,
             "purpose": "personnal",
             "language": "cpp",
@@ -188,7 +188,7 @@
             ]
         },
         {
-            "title": "Cloud Chaos",
+            "title": "Jeu Android",
             "date": 2022,
             "purpose": "personnal",
             "language": "godot",
@@ -222,7 +222,7 @@
             ]
         },
         {
-            "title": "Seed Keeper",
+            "title": "Jeu de simulation",
             "date": 2022,
             "purpose": "personnal",
             "language": "godot",
@@ -256,7 +256,7 @@
             ]
         },
         {
-            "title": "Hyperstellar",
+            "title": "Jeu de plateau",
             "date": 2023,
             "purpose": "educational",
             "language": "cs",
@@ -290,7 +290,7 @@
             ]
         },
         {
-            "title": "Jeu de la grenouille",
+            "title": "Jeu en console",
             "date": 2023,
             "purpose": "educational",
             "language": "java",
@@ -323,7 +323,7 @@
             ]
         },
         {
-            "title": "Odomo",
+            "title": "Centrale domotique",
             "date": 2022,
             "purpose": "educational",
             "language": "java",
@@ -356,7 +356,7 @@
             ]
         },
         {
-            "title": "IA Biopshere7",
+            "title": "IA Jeu de plateau",
             "date": 2023,
             "purpose": "educational",
             "language": "java",
@@ -422,7 +422,7 @@
             ]
         },
         {
-            "title": "1Jour, 1Mot",
+            "title": "Application Android",
             "date": 2023,
             "purpose": "personnal",
             "language": "godot",
@@ -517,7 +517,7 @@
             ]
         },
         {
-            "title": "Site 2IVF",
+            "title": "Site instructif",
             "date": 2022,
             "purpose": "educational",
             "language": "html",
@@ -585,7 +585,7 @@
             ]
         },
         {
-            "title": "DevStats",
+            "title": "Extension Chrome",
             "date": 2023,
             "purpose": "personnal",
             "language": "javascript",
@@ -617,7 +617,7 @@
             ]
         },
         {
-            "title": "Freepic",
+            "title": "Partage de dessins",
             "date": 2023,
             "purpose": "personnal",
             "language": "html",
@@ -648,7 +648,7 @@
             ]
         },
         {
-            "title": "Ça date",
+            "title": "Quiz historique",
             "date": 2023,
             "purpose": "personnal",
             "language": "javascript",
@@ -711,7 +711,7 @@
             ]
         },
         {
-            "title": "Application Comput-r",
+            "title": "Visualisation de données",
             "date": 2023,
             "purpose": "educational",
             "language": "cs",
