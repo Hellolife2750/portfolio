@@ -489,7 +489,7 @@
             "title": "Parcours Graphe",
             "date": 2023,
             "purpose": "educational",
-            "language": "bash",
+            "language": "java",
             "thumb": "res/img/projects/graphe.png",
             "containerId": "algorithmic",
             "description": "Durant ce projet, j'ai eu l'occasion d'utiliser une bibliothèque Java permettant de modéliser des graphes. Il a fallu programmer des algorithmes de parcours en largeur et en profondeur afin de trouver le chemin le plus cours entre 2 noeuds.",

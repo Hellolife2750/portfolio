@@ -439,9 +439,12 @@ span.fade-up {
   border: 0;
   outline: none;
   text-align: center;
-  background-color: white;
+  /* background-color: white; */
+  /* color: var(--secondary); */
+  background-color: var(--secondary);
+  color: white;
   padding: 10px;
-  color: var(--secondary);
+
   font-size: 1rem;
   font-weight: bold;
 
@@ -449,13 +452,16 @@ span.fade-up {
 }
 
 .sticked-button:hover {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: #3c8ae9;
   transition: all 0.3s ease-in-out;
 }
 
 .sticked-button.selected {
-  background-color: var(--secondary);
-  color: white;
+  background-color: white;
+  color: var(--secondary);
+  /* background-color: var(--secondary);
+  color: white; */
 
   transition: all 0.1s ease-in-out;
 }
