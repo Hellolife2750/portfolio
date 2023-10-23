@@ -65,6 +65,14 @@
             "overTitle": "GDScript"
         },
         {
+            "language": "react",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "React est un framework JS permettant de créer des applications web monopages en utilisant la structure par composants. [Bases]",
+            "overTitle": "React JS"
+        },
+        {
             "language": "cpp",
             "progress": 20,
             "logo": "undefined",
@@ -676,6 +684,38 @@
             ],
             "descriptionImages": [
                 "res/img/projects/cadate.png"
+            ]
+        },
+        {
+            "title": "Application InfoPlanet",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "react",
+            "thumb": "res/img/projects/infoplanet.png",
+            "containerId": "web",
+            "description": "InfoPlanet est un site permettant de faire des recherches concernant les planètes de la galaxie. On peut ainsi affiner les critères de sélection afin d'obtenir les caractéristiques précises des planètes. Cela est permis par différentes requêtes sur des API Open Source.",
+            "catchPhrase": "projet intergalactique",
+            "infos": {
+                "goal": "Créer sa première application React",
+                "date": "oct. 2023",
+                "timeLimit": "3 semaines",
+                "team": "seul",
+                "context": "personnel",
+                "languages": "React JS"
+            },
+            "contribs": [
+                "Structurer une page React",
+                "Faire des requêtes fetch à une API"
+            ],
+            "improves": [
+                "Apprendre les sucres syntaxique de JS"
+            ],
+            "tools": [
+                "VS Code (IDE)",
+                "NPM (gestionnaire de paquets)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/infoplanet.png"
             ]
         },
         {
