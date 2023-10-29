@@ -212,6 +212,7 @@ nextProjectBtn.addEventListener('click', () => {
 const projectInfosLst = document.getElementById('projects-infos-lst');
 const projectContribs = popupCard.querySelector('.project-contribs');
 const projectImproves = popupCard.querySelector('.project-improves');
+const openProjectUrlBtn = popupCard.querySelector('#open-project-url-btn');
 const toolsLst = popupCard.querySelector('.tools-lst');
 
 function loadPopupContent() {
@@ -225,6 +226,9 @@ function loadPopupContent() {
     projectContribs.innerHTML = getProjectContribsimprovesCode(currentProject, "contribs");
     projectImproves.innerHTML = getProjectContribsimprovesCode(currentProject, "improves");
     toolsLst.innerHTML = getToolsCode(currentProject);
+
+    currentProject.url ? openProjectUrlBtn.style.display = "block" : openProjectUrlBtn.style.display = "none";
+    openProjectUrlBtn.onclick = () => { window.open(currentProject.url, '_blank'); };
 }
 
 function getProjectInfosLstCode(project) {

@@ -193,7 +193,8 @@
                 "jeu",
                 "dessin",
                 "personnel"
-            ]
+            ],
+            "url": "https://clementaubr.itch.io/aquarescue"
         },
         {
             "title": "Jeu Android",
@@ -227,7 +228,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/cloudChaos.png"
-            ]
+            ],
+            "url": "https://clementaubr.itch.io/cloud-chaos"
         },
         {
             "title": "Jeu de simulation",
@@ -261,7 +263,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/seedKeeper.png"
-            ]
+            ],
+            "url": "https://clementaubr.itch.io/seed-keeper"
         },
         {
             "title": "Jeu de plateau",
@@ -295,7 +298,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/hyperstellar.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Jeu en console",
@@ -328,7 +332,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/jpo.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Centrale domotique",
@@ -361,7 +366,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/odomo.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "IA Jeu de plateau",
@@ -395,7 +401,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/biosphere7.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Installation de poste",
@@ -427,7 +434,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/butgames.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Application Android",
@@ -458,7 +466,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/1jour1mot.png"
-            ]
+            ],
+            "url": "https://github.com/ClementAubr/1Jour1Mot"
         },
         {
             "title": "Installation réseau",
@@ -491,7 +500,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/nextcloud.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Parcours Graphe",
@@ -522,7 +532,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/graphe.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Site instructif",
@@ -556,7 +567,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/2ivf.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Création d'une BD",
@@ -590,7 +602,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/billetconcert.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Extension Chrome",
@@ -622,7 +635,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/devstats.png"
-            ]
+            ],
+            "url": "https://github.com/ClementAubr/DevStats"
         },
         {
             "title": "Partage de dessins",
@@ -653,7 +667,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/freepic.png"
-            ]
+            ],
+            "url": "https://clementaubr.github.io/freepic/"
         },
         {
             "title": "Quiz historique",
@@ -684,7 +699,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/cadate.png"
-            ]
+            ],
+            "url": "https://clementaubr.github.io/cadate/"
         },
         {
             "title": "Application InfoPlanet",
@@ -716,7 +732,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/infoplanet.png"
-            ]
+            ],
+            "url": "https://hellolife2750.github.io/solar-system"
         },
         {
             "title": "Rapport d'analyse",
@@ -748,7 +765,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/capgemini.png"
-            ]
+            ],
+            "url": ""
         },
         {
             "title": "Visualisation de données",
@@ -782,7 +800,8 @@
             ],
             "descriptionImages": [
                 "res/img/projects/computr.png"
-            ]
+            ],
+            "url": ""
         }
     ]
 }
