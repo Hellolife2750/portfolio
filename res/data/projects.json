@@ -703,6 +703,40 @@
             "url": "https://clementaubr.github.io/cadate/"
         },
         {
+            "title": "Test de sociabilité",
+            "date": 2023,
+            "purpose": "personnal",
+            "language": "javascript",
+            "thumb": "res/img/projects/socio-o-meter.png",
+            "containerId": "web",
+            "description": "Socio-o-meter est un site sur lequel on répond à une trentaine de questions. Ensuite, un score de sociabilité nous est attribué. Il est également possible d'envoyer des messages aux créateurs du site via l'API Discord.",
+            "catchPhrase": "es-tu sociable?",
+            "infos": {
+                "goal": "Collaborer sur un dépôt Git",
+                "date": "mai. 2023",
+                "timeLimit": "1 mois",
+                "team": "2",
+                "context": "personnel",
+                "languages": "HTML/CSS/JS"
+            },
+            "contribs": [
+                "Utilisation de Git dans un contexte concret",
+                "Stockage des coockies en JS",
+                "Modifier dynamiquement le contenu de la page en JS"
+            ],
+            "improves": [
+                "Utiliser un framework plus adapté"
+            ],
+            "tools": [
+                "VS Code (IDE)",
+                "Git (Gestionnaire de versions)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/socio-o-meter.png"
+            ],
+            "url": "https://clementaubr.github.io/socio-o-meter/"
+        },
+        {
             "title": "Application InfoPlanet",
             "date": 2023,
             "purpose": "personnal",
