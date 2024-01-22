@@ -770,6 +770,42 @@
             "url": "https://clementaubr.github.io/info-planet/"
         },
         {
+            "title": "Site web Fullstack",
+            "date": 2024,
+            "purpose": "educational",
+            "language": "symfony",
+            "thumb": "res/img/projects/filmeo.png",
+            "containerId": "web",
+            "description": "Filméo est un site web permettant de rechercher des films et séries. Il est possible de les filtrer par genre, année, note, etc. On peut également créer un compte afin de sauvegarder ses films préférés.",
+            "catchPhrase": "un long-codage",
+            "infos": {
+                "goal": "Créer un site full-stack de A à Z",
+                "date": "janv. 2024",
+                "timeLimit": "2 semaines",
+                "team": "6",
+                "context": "académique",
+                "languages": "Symfony (PHP), Twig, CSS, JS"
+            },
+            "contribs": [
+                "Travailler avec une méthodologie Scrum",
+                "Coder un site full-stack",
+                "Elaborer une interface moderne et épurée",
+                "Respecter les normes PHP PSR"
+            ],
+            "improves": [
+                "Optimisation des requêtes SQL"
+            ],
+            "tools": [
+                "VS Code (IDE)",
+                "Symfony (Framework PHP)",
+                "MySQL (SGBD)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/filmeo.png"
+            ],
+            "url": ""
+        },
+        {
             "title": "Rapport d'analyse",
             "date": 2022,
             "purpose": "educational",
