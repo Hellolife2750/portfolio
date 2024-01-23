@@ -87,6 +87,14 @@
             "bgColor": "",
             "description": "Markdown permet la mise en page de documents simples. [Bases]",
             "overTitle": "Markdown"
+        },
+        {
+            "language": "symfony",
+            "progress": 50,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Symfony est un framework PHP. [Bases]",
+            "overTitle": "Symfony"
         }
     ],
     "softwares": [
@@ -194,7 +202,8 @@
                 "dessin",
                 "personnel"
             ],
-            "url": "https://clementaubr.itch.io/aquarescue"
+            "url": "https://clementaubr.itch.io/aquarescue",
+            "retex": ""
         },
         {
             "title": "Jeu Android",
@@ -229,7 +238,8 @@
             "descriptionImages": [
                 "res/img/projects/cloudChaos.png"
             ],
-            "url": "https://clementaubr.itch.io/cloud-chaos"
+            "url": "https://clementaubr.itch.io/cloud-chaos",
+            "retex": ""
         },
         {
             "title": "Jeu de simulation",
@@ -264,7 +274,8 @@
             "descriptionImages": [
                 "res/img/projects/seedKeeper.png"
             ],
-            "url": "https://clementaubr.itch.io/seed-keeper"
+            "url": "https://clementaubr.itch.io/seed-keeper",
+            "retex": ""
         },
         {
             "title": "Jeu de plateau",
@@ -299,7 +310,8 @@
             "descriptionImages": [
                 "res/img/projects/hyperstellar.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "hyperstellar"
         },
         {
             "title": "Jeu en console",
@@ -333,7 +345,8 @@
             "descriptionImages": [
                 "res/img/projects/jpo.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": ""
         },
         {
             "title": "Centrale domotique",
@@ -367,7 +380,8 @@
             "descriptionImages": [
                 "res/img/projects/odomo.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "odomo"
         },
         {
             "title": "IA Jeu de plateau",
@@ -402,7 +416,8 @@
             "descriptionImages": [
                 "res/img/projects/biosphere7.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "biosphere7"
         },
         {
             "title": "Installation de poste",
@@ -435,7 +450,8 @@
             "descriptionImages": [
                 "res/img/projects/butgames.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "butgames"
         },
         {
             "title": "Application Android",
@@ -467,7 +483,8 @@
             "descriptionImages": [
                 "res/img/projects/1jour1mot.png"
             ],
-            "url": "https://github.com/ClementAubr/1Jour1Mot"
+            "url": "https://github.com/ClementAubr/1Jour1Mot",
+            "retex": ""
         },
         {
             "title": "Installation réseau",
@@ -501,7 +518,8 @@
             "descriptionImages": [
                 "res/img/projects/nextcloud.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": ""
         },
         {
             "title": "Parcours Graphe",
@@ -533,7 +551,8 @@
             "descriptionImages": [
                 "res/img/projects/graphe.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": ""
         },
         {
             "title": "Site instructif",
@@ -568,7 +587,8 @@
             "descriptionImages": [
                 "res/img/projects/2ivf.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "2ivf"
         },
         {
             "title": "Création d'une BD",
@@ -603,7 +623,8 @@
             "descriptionImages": [
                 "res/img/projects/billetconcert.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "billetconcert"
         },
         {
             "title": "Extension Chrome",
@@ -636,7 +657,8 @@
             "descriptionImages": [
                 "res/img/projects/devstats.png"
             ],
-            "url": "https://github.com/ClementAubr/DevStats"
+            "url": "https://github.com/ClementAubr/DevStats",
+            "retex": ""
         },
         {
             "title": "Partage de dessins",
@@ -668,7 +690,8 @@
             "descriptionImages": [
                 "res/img/projects/freepic.png"
             ],
-            "url": "https://clementaubr.github.io/freepic/"
+            "url": "https://clementaubr.github.io/freepic/",
+            "retex": ""
         },
         {
             "title": "Quiz historique",
@@ -700,7 +723,8 @@
             "descriptionImages": [
                 "res/img/projects/cadate.png"
             ],
-            "url": "https://clementaubr.github.io/cadate/"
+            "url": "https://clementaubr.github.io/cadate/",
+            "retex": ""
         },
         {
             "title": "Test de sociabilité",
@@ -734,7 +758,8 @@
             "descriptionImages": [
                 "res/img/projects/socio-o-meter.png"
             ],
-            "url": "https://clementaubr.github.io/socio-o-meter/"
+            "url": "https://clementaubr.github.io/socio-o-meter/",
+            "retex": ""
         },
         {
             "title": "Application InfoPlanet",
@@ -767,7 +792,8 @@
             "descriptionImages": [
                 "res/img/projects/infoplanet.png"
             ],
-            "url": "https://clementaubr.github.io/info-planet/"
+            "url": "https://clementaubr.github.io/info-planet/",
+            "retex": "infoplanet"
         },
         {
             "title": "Site web Fullstack",
@@ -803,7 +829,8 @@
             "descriptionImages": [
                 "res/img/projects/filmeo.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "filméo"
         },
         {
             "title": "Rapport d'analyse",
@@ -836,7 +863,8 @@
             "descriptionImages": [
                 "res/img/projects/capgemini.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": ""
         },
         {
             "title": "Visualisation de données",
@@ -871,7 +899,8 @@
             "descriptionImages": [
                 "res/img/projects/computr.png"
             ],
-            "url": ""
+            "url": "",
+            "retex": "computr"
         }
     ]
 }

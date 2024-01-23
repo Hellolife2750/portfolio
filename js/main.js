@@ -213,6 +213,7 @@ const projectInfosLst = document.getElementById('projects-infos-lst');
 const projectContribs = popupCard.querySelector('.project-contribs');
 const projectImproves = popupCard.querySelector('.project-improves');
 const openProjectUrlBtn = popupCard.querySelector('#open-project-url-btn');
+const openProjectRetexBtn = popupCard.querySelector('#open-project-retex-btn');
 const toolsLst = popupCard.querySelector('.tools-lst');
 
 function loadPopupContent() {
@@ -229,6 +230,12 @@ function loadPopupContent() {
 
     currentProject.url ? openProjectUrlBtn.style.display = "block" : openProjectUrlBtn.style.display = "none";
     openProjectUrlBtn.onclick = () => { window.open(currentProject.url, '_blank'); };
+
+    if (currentProject.retex) {
+        openProjectRetexBtn.onclick = () => { window.open(`res/docs/retexs/${currentProject.retex}.pdf`, '_blank'); };
+    } else {
+        openProjectRetexBtn.onclick = () => { window.open('res/docs/RETEX_Clement_Aubier.pdf', '_blank'); };
+    }
 }
 
 function getProjectInfosLstCode(project) {
