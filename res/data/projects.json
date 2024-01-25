@@ -555,6 +555,40 @@
             "retex": ""
         },
         {
+            "title": "Installation serveurs DNS",
+            "date": 2023,
+            "purpose": "educational",
+            "language": "bash",
+            "thumb": "res/img/projects/installation_dns.png",
+            "containerId": "algorithmic",
+            "description": "Ce projet a consisté à installer un serveur DNS sur une machine virtuelle, et à le configurer de manière à ce qu'il puisse être utilisé par un client. Il a fallu également créer un site web et le rendre accessible depuis le client.",
+            "catchPhrase": "DNS à la rescousse",
+            "infos": {
+                "goal": "Configurer un serveur DNS",
+                "date": "oct. 2023",
+                "timeLimit": "3 semaines",
+                "team": "2",
+                "context": "académique",
+                "languages": "Bash"
+            },
+            "contribs": [
+                "Apprendre le fonctionnement d'un serveur DNS",
+                "Rédiger un rapport technique en markdown"
+            ],
+            "improves": [
+                "Aucune"
+            ],
+            "tools": [
+                "QEMU (logiciel de virtualisation système)",
+                "NEmu (logiciel de virtualisation réseau)"
+            ],
+            "descriptionImages": [
+                "res/img/projects/installation_dns.png"
+            ],
+            "url": "",
+            "retex": ""
+        },
+        {
             "title": "Site instructif",
             "date": 2022,
             "purpose": "educational",
