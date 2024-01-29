@@ -160,6 +160,13 @@
             "bgColor": "",
             "description": "SQL Server est un SGBD permettant d'effectuer des traitements sur des bases de données.",
             "overTitle": "SQL Server"
+        },
+        {
+            "software": "mysql",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "MySQL est un SGBD permettant un accès facile par page web (PHP MyAdmin).",
+            "overTitle": "MySQL"
         }
     ],
     "projects": [

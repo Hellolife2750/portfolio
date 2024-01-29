@@ -595,12 +595,11 @@ function generateDetailedSkillCode(skill) {
      <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
          <img src="res/img/languages/${skill.language}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
          <p class="skill-tag">${skill.overTitle}</p>
-
-         <div class="progress-bar-empty">
-             <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
-         </div>
      </div>
      `
+    // < div class="progress-bar-empty" >
+    //     <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
+    //  </div >
     return code;
 }
 
