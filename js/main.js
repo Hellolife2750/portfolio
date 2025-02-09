@@ -30,6 +30,7 @@ const purposes = {
 };
 
 var cards;
+var allProfxp;
 var allSkills;
 var allFrameworks;
 var allSoftwares;
@@ -43,6 +44,7 @@ fetch('res/data/projects.json')
     .then(response => response.json())
     .then(data => {
         cards = data.projects;
+        allProfxp = data.profxp;
         allSkills = data.skills;
         allFrameworks = data.frameworks;
         allSoftwares = data.softwares;
@@ -58,6 +60,11 @@ fetch('res/data/projects.json')
                 console.log(event.target)
             });*/
 
+        });
+
+        allProfxp.forEach(profxp => {
+            container = document.querySelector(`#profxp .content`);
+            container.insertAdjacentHTML('beforeend', generateProfxpCode(profxp));
         });
 
         for (i = 0; i < NB_SKILLS_TO_PREVIEW; i++) {
@@ -100,6 +107,27 @@ function generateCardCode(card) {
     </div>
     `
     return cardCode;
+};
+
+//Génère le code pour l'expérience professionnelle passée en paramètre
+function generateProfxpCode(profxp) {
+    let code = `
+    <div class="one-job">
+        <img class="job-thumb card" src="res/img/professional_xp/${profxp.logo}.png" alt="logo de ${profxp.company}">
+        <div class="job-infos card">
+            <div class="job-title">
+                <h3>${profxp.company} - ${profxp.title}</h3>
+                <p class="date">${profxp.date}</p>
+            </div>
+            <p class="job-description">${profxp.description}</p>
+            <div class="tags-container">
+                ${profxp.hardskills.map(tag => `<p class="tag hardskill">${tag}</p>`).join('')}
+                ${profxp.softskills.map(tag => `<p class="tag softskill">${tag}</p>`).join('')}
+            </div>
+        </div>
+    </div>
+    `
+    return code;
 };
 
 function generateSkillCode(skill) {

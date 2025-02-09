@@ -401,6 +401,88 @@ span.fade-up {
   margin-bottom: 3%;
 }
 
+/* section expériences professionnelles */
+
+#profxp {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+}
+
+#profxp .content{
+  width: 70%;
+  margin: 4% auto;
+}
+
+#profxp .one-job{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+#profxp .card {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+
+#profxp .job-infos {
+  max-width: 70%;
+}
+
+#profxp .job-infos > *{
+  margin: 3% auto;
+}
+
+#profxp .job-infos >*:last-child{
+  margin-bottom: 1%;
+}
+
+#profxp .job-thumb{
+}
+
+#profxp p {
+  line-height: 1.5rem;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#profxp .job-title{
+  font-size: 1.3rem; /*25px*/
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profxp .job-title .date{
+  font-size: 1rem;
+}
+
+#profxp .tags-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profxp .tag{
+  background-color: #DBEAFE;
+  color: #1E40AF;
+  padding: 0.6rem;
+  border-radius: .5rem;
+}
+
+#profxp .tag:not(:last-child){
+  margin-right: 1rem;
+}
+
+#profxp .tag.softskill {
+  background-color: #D1FAE5;
+  color: #065F46;
+}
+ 
+
 /*compétences*/
 #skills {
   display: flex;

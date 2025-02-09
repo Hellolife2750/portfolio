@@ -1,11 +1,51 @@
 {
-    "professional_xp" : [
+    "profxp" : [
         {
-            "title": "Développeur web",
-            "company": "iut-bordeaux",
-            "location": "Bordeaux",
-            "date": "2021 - Aujourd'hui",
-            "description": "Développement de sites web pourconst"
+            "company": "DPA",
+            "title": "Développeur full-stack",
+            "logo" : "dpa",
+            "date": "août 2024 - 1 an",
+            "description": "Dans le cadre de mon alternance, j'ai été amené à travailler sur des projets de grande envergure. J'ai notamment participé à la refonte d'un site web de vente en ligne, en utilisant Django et React.",
+            "hardskills" : [
+                "Python",
+                "Django",
+                "MySQL"
+            ],
+            "softskills" : [
+                "Adaptation",
+                "Recueil du besoin",
+                "Ergonomie"
+            ]
+        },
+        {
+            "company": "SiteW",
+            "title": "Développeur back-end",
+            "logo" : "sitew",
+            "date": "avr. 2024 - 2 mois",
+            "description": "Dans le cadre de mon stage de fin de DUT, j'ai été amené à travailler sur des projets de petite envergure. J'ai notamment participé à la création d'une API REST pour un site de gestion de projets.",
+            "hardskills" : [
+                "Python",
+                "Langchain"
+            ],
+            "softskills" : [
+                "Autonomie",
+                "Coordination"
+            ]
+        },
+        {
+            "company": "IUT de bordeaux",
+            "title": "Tuteur",
+            "logo" : "iut-bordeaux",
+            "date": "sept. 2023 - 4 mois",
+            "description": "J'ai été tuteur pour des étudiants de 1e année de DUT Informatique. J'ai notamment aidé à la compréhension des cours, à la réalisation de projets et à la préparation des examens.",
+            "hardskills" : [
+                "Java"
+            ],
+            "softskills" : [
+                "Pédagogie",
+                "Polyvalence",
+                "Entraide"
+            ]
         }
     ],
     "skills": [
