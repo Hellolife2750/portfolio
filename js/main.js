@@ -98,7 +98,7 @@ function generateCardCode(card) {
     let cardCode = `
     <div class="card" onClick="handleClick(this)">
     <div class="head">
-        <img class="language-logo" src="res/img/languages/${card.language}.png" alt="logo du ${card.language}">
+        <img class="language-logo" src="res/img/languages/${card.language}.webp" alt="logo du ${card.language}">
         <i class="${purposes[card.purpose]}"></i>
         <p>${card.date}</p>
     </div>
@@ -113,7 +113,7 @@ function generateCardCode(card) {
 function generateProfxpCode(profxp) {
     let code = `
     <div class="one-job">
-        <img class="job-thumb card" src="res/img/professional_xp/${profxp.logo}.png" alt="logo de ${profxp.company}">
+        <img class="job-thumb card" src="res/img/profxp/${profxp.logo}.webp" alt="logo de ${profxp.company}">
         <div class="job-infos card">
             <div class="job-title">
                 <h3>${profxp.company} - ${profxp.title}</h3>
@@ -133,7 +133,7 @@ function generateProfxpCode(profxp) {
 function generateSkillCode(skill) {
     let skillCode = `
     <div class="one-skill" data-tooltip-content="${skill.description}">
-        <img src="res/img/languages/${skill.language}.png" alt="logo de le compétence" draggable="false"
+        <img src="res/img/languages/${skill.language}.webp" alt="logo de le compétence" draggable="false"
                             title="${skill.overTitle}">
         <div class="progress-bar-empty">
             <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
@@ -629,7 +629,7 @@ function hideTooltip() {
 function generateDetailedSkillCode(skill) {
     let code = `
      <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-         <img src="res/img/languages/${skill.language}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
+         <img src="res/img/languages/${skill.language}.webp" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
          <p class="skill-tag">${skill.overTitle}</p>
      </div>
      `
@@ -642,7 +642,7 @@ function generateDetailedSkillCode(skill) {
 function generateDetailedFrameworkCode(framework) {
     let code = `
      <div class="skill-card tooltip-item" data-tooltip-content="${framework.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-         <img src="res/img/frameworks/${framework.framework}.png" class="skill-card-img" alt="icone du langage ${framework.overTitle}">
+         <img src="res/img/frameworks/${framework.framework}.webp" class="skill-card-img" alt="icone du langage ${framework.overTitle}">
          <p class="skill-tag">${framework.overTitle}</p>
      </div>
      `
@@ -655,7 +655,7 @@ function generateDetailedFrameworkCode(framework) {
 function generateDetailedSoftwareCode(skill) {
     let code = `
      <div class="skill-card tooltip-item" data-tooltip-content="${skill.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
-         <img src="res/img/softwares/${skill.software}.png" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
+         <img src="res/img/softwares/${skill.software}.webp" class="skill-card-img" alt="icone du langage ${skill.overTitle}">
          <p class="skill-tag">${skill.overTitle}</p>
      </div>
      `

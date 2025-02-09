@@ -303,7 +303,7 @@
             "date": 2021,
             "purpose": "personnal",
             "language": "cpp",
-            "thumb": "res/img/projects/aquarescue.png",
+            "thumb": "res/img/projects/aquarescue.webp",
             "containerId": "video-games",
             "description": "AquaRescue est un jeu vidéo codé en C++. L'objectif est, dans un temps imparti, de ramasser le maximum de déchets dans l'océan. Il faut également faire attention aux ennemis tels que les requins et à sa barre d'oxygène. Ce jeu a été créé à l'ocation d'une GameJam pour la lutte contre le pollution des océans.",
             "catchPhrase": "C++ que compliqué !",
@@ -329,7 +329,7 @@
                 "Audacity (Effets sonores)"
             ],
             "descriptionImages": [
-                "res/img/projects/aquarescue.png"
+                "res/img/projects/aquarescue.webp"
             ],
             "keyWords": [
                 "c++",
@@ -345,7 +345,7 @@
             "date": 2022,
             "purpose": "personnal",
             "language": "godot",
-            "thumb": "res/img/projects/cloudChaos.png",
+            "thumb": "res/img/projects/cloudChaos.webp",
             "containerId": "video-games",
             "description": "Cloud Chaos est un jeu android codé à l'aide de Godot Engine. Dans ce dernier, votre but est de défendre un bébé nuage, attaqué par des monstres. Il est possible d'améliorer le protagoniste, permettant ainsi de faire des parties plus longues et obtenir un meilleur score.",
             "catchPhrase": "15 jours - un jeu",
@@ -371,7 +371,7 @@
                 "Audacity (Effets sonores)"
             ],
             "descriptionImages": [
-                "res/img/projects/cloudChaos.png"
+                "res/img/projects/cloudChaos.webp"
             ],
             "url": "https://clementaubr.itch.io/cloud-chaos",
             "retex": ""
@@ -381,7 +381,7 @@
             "date": 2022,
             "purpose": "personnal",
             "language": "godot",
-            "thumb": "res/img/projects/seedKeeper.png",
+            "thumb": "res/img/projects/seedKeeper.webp",
             "containerId": "video-games",
             "description": "Seed Keeper est un jeu de sensibilisation à l'utilisation des produits chimiques dans l'agriculture. Je l'ai créé à l'occasion d'une campagne menée dans mon établissement scolaire. L'objectif est de cultiver des plantatations de différentes sortes, afin de dévelpper son commerce. On peut soit choisir de planter du bio, soit de l'hybride.",
             "catchPhrase": "Défendre la bonne cause",
@@ -407,7 +407,7 @@
                 "Audacity (Effets sonores)"
             ],
             "descriptionImages": [
-                "res/img/projects/seedKeeper.png"
+                "res/img/projects/seedKeeper.webp"
             ],
             "url": "https://clementaubr.itch.io/seed-keeper",
             "retex": ""
@@ -417,7 +417,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "cs",
-            "thumb": "res/img/projects/hyperstellar.png",
+            "thumb": "res/img/projects/hyperstellar.webp",
             "containerId": "video-games",
             "description": "Hyperstellar est un jeu de plateau se jouant de 2 à 5 joueurs. J'ai eu l'occasion de designer les menus du jeu et coder ses fonctionnalités principales. J'ai ainsi appris à collaborer de façon poussée grâce à Git, ainsi qu'à créer une interface avec Visual Studio.",
             "catchPhrase": "Stratégie lunaire",
@@ -443,7 +443,7 @@
                 "Git (Gestionnaire de versions)"
             ],
             "descriptionImages": [
-                "res/img/projects/hyperstellar.png"
+                "res/img/projects/hyperstellar.webp"
             ],
             "url": "",
             "retex": "hyperstellar"
@@ -453,7 +453,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "java",
-            "thumb": "res/img/projects/jpo.png",
+            "thumb": "res/img/projects/jpo.webp",
             "containerId": "video-games",
             "description": "Le jeu de la grenouille est un mini-jeu en console codé en Java pour faire découvrir les bases de la programmation aux élèves lors de la journée portes ouvertes de l'IUT de Bordeaux.",
             "catchPhrase": "Les bases",
@@ -478,7 +478,7 @@
                 "Inkscape (Editeur d'images vectorielles)"
             ],
             "descriptionImages": [
-                "res/img/projects/jpo.png"
+                "res/img/projects/jpo.webp"
             ],
             "url": "",
             "retex": ""
@@ -488,7 +488,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "java",
-            "thumb": "res/img/projects/odomo.png",
+            "thumb": "res/img/projects/odomo.webp",
             "containerId": "algorithmic",
             "description": "Odomo est une application de station météo fictive en version console. J'ai été invité à m'approprier, corriger et compléter un code préexistant. Cela m'a permis de comprendre l'importance des conventions d'écriture, afin que le code soit accessible par autrui (tests unitaires, Javadoc...). Cela a aussi sollicité ma logique et ma créativité.",
             "catchPhrase": "Projet Ensoleillé",
@@ -513,7 +513,7 @@
                 "NetBeans (IDE Java)"
             ],
             "descriptionImages": [
-                "res/img/projects/odomo.png"
+                "res/img/projects/odomo.webp"
             ],
             "url": "",
             "retex": "odomo"
@@ -523,7 +523,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "java",
-            "thumb": "res/img/projects/biosphere7.png",
+            "thumb": "res/img/projects/biosphere7.webp",
             "containerId": "algorithmic",
             "description": "Biosphere7 est un jeu de plateau stratégique se jouant à 2. Le but est d'obtenir le plus de points en plantant judicieusement des arbres. J'ai eu l'occasion de coder les règles ainsi qu'une IA pour ce jeu.",
             "catchPhrase": "Un peu de stratégie!",
@@ -549,7 +549,7 @@
                 "Git (Gestionnaire de versions)"
             ],
             "descriptionImages": [
-                "res/img/projects/biosphere7.png"
+                "res/img/projects/biosphere7.webp"
             ],
             "url": "",
             "retex": "biosphere7"
@@ -559,7 +559,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "bash",
-            "thumb": "res/img/projects/butgames.png",
+            "thumb": "res/img/projects/butgames.webp",
             "containerId": "algorithmic",
             "description": "Ce projet consistait à configurer une machine virtuelle de manière à ce qu'elle soit utilisable par un futur développeur. Cela inclut donc l'installation de la machine, la création des utilisateurs avec différents privilèges, l'installation de VS Code, le paramétrage de Git...",
             "catchPhrase": "un besoin, une configuration",
@@ -583,7 +583,7 @@
                 "Prompt Linux"
             ],
             "descriptionImages": [
-                "res/img/projects/butgames.png"
+                "res/img/projects/butgames.webp"
             ],
             "url": "",
             "retex": "butgames"
@@ -593,7 +593,7 @@
             "date": 2023,
             "purpose": "personnal",
             "language": "godot",
-            "thumb": "res/img/projects/1jour1mot.png",
+            "thumb": "res/img/projects/1jour1mot.webp",
             "containerId": "algorithmic",
             "description": "1Jour, 1Mot est application android développée sur Godot Engine. Elle propose d'apprendre un nouveau mot chaque jour, en révisant ceux appris les jours précédents.",
             "catchPhrase": "Appli d'érudit !",
@@ -616,7 +616,7 @@
                 "Godot Engine 3 (Moteur de jeu)"
             ],
             "descriptionImages": [
-                "res/img/projects/1jour1mot.png"
+                "res/img/projects/1jour1mot.webp"
             ],
             "url": "https://github.com/ClementAubr/1Jour1Mot",
             "retex": ""
@@ -626,7 +626,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "bash",
-            "thumb": "res/img/projects/nextcloud.png",
+            "thumb": "res/img/projects/nextcloud.webp",
             "containerId": "algorithmic",
             "description": "L'objectif a été de configurer un réseau virtuel afin de pouvoir accéder à un serveur depuis un client, et pouvoir utiliser des logiciels de bureautique sur ce dernier.",
             "catchPhrase": "Agrandir son réseau",
@@ -651,7 +651,7 @@
                 "NEmu (logiciel de virtualisation réseau)"
             ],
             "descriptionImages": [
-                "res/img/projects/nextcloud.png"
+                "res/img/projects/nextcloud.webp"
             ],
             "url": "",
             "retex": ""
@@ -661,7 +661,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "java",
-            "thumb": "res/img/projects/graphe.png",
+            "thumb": "res/img/projects/graphe.webp",
             "containerId": "algorithmic",
             "description": "Durant ce projet, j'ai eu l'occasion d'utiliser une bibliothèque Java permettant de modéliser des graphes. Il a fallu programmer des algorithmes de parcours en largeur et en profondeur afin de trouver le chemin le plus cours entre 2 noeuds.",
             "catchPhrase": "Tracer son chemin",
@@ -684,7 +684,7 @@
                 "NetBeans (IDE Java)"
             ],
             "descriptionImages": [
-                "res/img/projects/graphe.png"
+                "res/img/projects/graphe.webp"
             ],
             "url": "",
             "retex": ""
@@ -694,7 +694,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "bash",
-            "thumb": "res/img/projects/installation_dns.png",
+            "thumb": "res/img/projects/installation_dns.webp",
             "containerId": "algorithmic",
             "description": "Ce projet a consisté à installer un serveur DNS sur une machine virtuelle, et à le configurer de manière à ce qu'il puisse être utilisé par un client. Il a fallu également créer un site web et le rendre accessible depuis le client.",
             "catchPhrase": "DNS à la rescousse",
@@ -718,7 +718,7 @@
                 "NEmu (logiciel de virtualisation réseau)"
             ],
             "descriptionImages": [
-                "res/img/projects/installation_dns.png"
+                "res/img/projects/installation_dns.webp"
             ],
             "url": "",
             "retex": ""
@@ -728,7 +728,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "html",
-            "thumb": "res/img/projects/2ivf.png",
+            "thumb": "res/img/projects/2ivf.webp",
             "containerId": "web",
             "description": "2IVF est un site internet fictif proposant des analyses PESTEL et des présentations d'entreprises du secteur technologique. Cela a notamment impliqué de réfléchir au design du site au préalable via une maquette.",
             "catchPhrase": "l'informatique pour l'information",
@@ -754,7 +754,7 @@
                 "Balsamiq (Maquette)"
             ],
             "descriptionImages": [
-                "res/img/projects/2ivf.png"
+                "res/img/projects/2ivf.webp"
             ],
             "url": "",
             "retex": "2ivf"
@@ -764,7 +764,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "sql",
-            "thumb": "res/img/projects/billetconcert.png",
+            "thumb": "res/img/projects/billetconcert.webp",
             "containerId": "web",
             "description": "BILLETCONCERT.FR est une start-up fictive vendant des billets en ligne. Il a fallu créer et tester la base de données permettant de stocker l'agenda des festivals et concerts. Ensuite, une carte mentale a permis de mettre en avant le rôle de la qualité des données dans une BD.",
             "catchPhrase": "concert à la base",
@@ -790,7 +790,7 @@
                 "WinDesign (Conception MCD)"
             ],
             "descriptionImages": [
-                "res/img/projects/billetconcert.png"
+                "res/img/projects/billetconcert.webp"
             ],
             "url": "",
             "retex": "billetconcert"
@@ -800,7 +800,7 @@
             "date": 2023,
             "purpose": "personnal",
             "language": "js",
-            "thumb": "res/img/projects/devstats.png",
+            "thumb": "res/img/projects/devstats.webp",
             "containerId": "web",
             "description": "DevStats est une extension chrome affichant des statistiques sur les sites pour programmeurs visités. Elle inclut des graphiques statistiques, une exportation au format .CSV et la personnalisation des sites suivis.",
             "catchPhrase": "Extension pour développeurs",
@@ -824,7 +824,7 @@
                 "VS Code (IDE)"
             ],
             "descriptionImages": [
-                "res/img/projects/devstats.png"
+                "res/img/projects/devstats.webp"
             ],
             "url": "https://github.com/ClementAubr/DevStats",
             "retex": ""
@@ -834,9 +834,9 @@
             "date": 2023,
             "purpose": "personnal",
             "language": "html",
-            "thumb": "res/img/projects/freepic.png",
+            "thumb": "res/img/projects/freepic.webp",
             "containerId": "web",
-            "description": "Freepic est un site web où je publie mes dessins vectoriels. N'importe qui peut les télécharger en .SVG ou .PNG. Ces dessins sont notamment issus des jeux vidéos que je code.",
+            "description": "Freepic est un site web où je publie mes dessins vectoriels. N'importe qui peut les télécharger en .SVG ou .webp. Ces dessins sont notamment issus des jeux vidéos que je code.",
             "catchPhrase": "Dessins gratuits !",
             "infos": {
                 "goal": "Publier mes dessins",
@@ -848,7 +848,7 @@
             },
             "contribs": [
                 "Rassembler tous mes dessins à un même endroit",
-                "Convertir une image .SVG en .PNG en Javascript"
+                "Convertir une image .SVG en .webp en Javascript"
             ],
             "improves": [
                 "Ajouter un système de recherche des images par nom"
@@ -857,7 +857,7 @@
                 "VS Code (IDE)"
             ],
             "descriptionImages": [
-                "res/img/projects/freepic.png"
+                "res/img/projects/freepic.webp"
             ],
             "url": "https://clementaubr.github.io/freepic/",
             "retex": ""
@@ -867,7 +867,7 @@
             "date": 2023,
             "purpose": "personnal",
             "language": "js",
-            "thumb": "res/img/projects/cadate.png",
+            "thumb": "res/img/projects/cadate.webp",
             "containerId": "web",
             "description": "Ça date est un site web dans lequel on peut jouer à seul, ou à plusieurs. Le but est de deviner la date d'invention des objets proposés. Un classement final est ensuite établi.",
             "catchPhrase": "Trouve la date",
@@ -890,7 +890,7 @@
                 "VS Code (IDE)"
             ],
             "descriptionImages": [
-                "res/img/projects/cadate.png"
+                "res/img/projects/cadate.webp"
             ],
             "url": "https://clementaubr.github.io/cadate/",
             "retex": ""
@@ -900,7 +900,7 @@
             "date": 2023,
             "purpose": "personnal",
             "language": "js",
-            "thumb": "res/img/projects/socio-o-meter.png",
+            "thumb": "res/img/projects/socio-o-meter.webp",
             "containerId": "web",
             "description": "Socio-o-meter est un site sur lequel on répond à une trentaine de questions. Ensuite, un score de sociabilité nous est attribué. Il est également possible d'envoyer des messages aux créateurs du site via l'API Discord.",
             "catchPhrase": "es-tu sociable?",
@@ -925,7 +925,7 @@
                 "Git (Gestionnaire de versions)"
             ],
             "descriptionImages": [
-                "res/img/projects/socio-o-meter.png"
+                "res/img/projects/socio-o-meter.webp"
             ],
             "url": "https://clementaubr.github.io/socio-o-meter/",
             "retex": ""
@@ -935,7 +935,7 @@
             "date": 2023,
             "purpose": "personnal",
             "language": "react",
-            "thumb": "res/img/projects/infoplanet.png",
+            "thumb": "res/img/projects/infoplanet.webp",
             "containerId": "web",
             "description": "InfoPlanet est un site permettant de faire des recherches concernant les planètes de la galaxie. On peut ainsi affiner les critères de sélection afin d'obtenir les caractéristiques précises des planètes. Cela est permis par différentes requêtes sur des API Open Source.",
             "catchPhrase": "projet intergalactique",
@@ -959,7 +959,7 @@
                 "NPM (gestionnaire de paquets)"
             ],
             "descriptionImages": [
-                "res/img/projects/infoplanet.png"
+                "res/img/projects/infoplanet.webp"
             ],
             "url": "https://clementaubr.github.io/info-planet/",
             "retex": "infoplanet"
@@ -969,7 +969,7 @@
             "date": 2024,
             "purpose": "educational",
             "language": "symfony",
-            "thumb": "res/img/projects/filmeo.png",
+            "thumb": "res/img/projects/filmeo.webp",
             "containerId": "web",
             "description": "Filméo est un site web permettant de rechercher des films et séries. Il est possible de les filtrer par genre, année, note, etc. On peut également créer un compte afin de sauvegarder ses films préférés.",
             "catchPhrase": "un long-codage",
@@ -996,7 +996,7 @@
                 "MySQL (SGBD)"
             ],
             "descriptionImages": [
-                "res/img/projects/filmeo.png"
+                "res/img/projects/filmeo.webp"
             ],
             "url": "",
             "retex": "filméo"
@@ -1006,7 +1006,7 @@
             "date": 2022,
             "purpose": "educational",
             "language": "none",
-            "thumb": "res/img/projects/capgemini.png",
+            "thumb": "res/img/projects/capgemini.webp",
             "containerId": "gestion-com",
             "description": "J'ai dû présenter une entreprise du secteur numérique française : Capgemini. Ensuite, une analyse de son macro et micro-environnement a permis de déterminer les forces et faiblesses de l'entreprise sur le plan stratégique.",
             "catchPhrase": "analyse stratégique",
@@ -1030,7 +1030,7 @@
                 "Google Docs (Traitement de texte)"
             ],
             "descriptionImages": [
-                "res/img/projects/capgemini.png"
+                "res/img/projects/capgemini.webp"
             ],
             "url": "",
             "retex": ""
@@ -1040,7 +1040,7 @@
             "date": 2023,
             "purpose": "educational",
             "language": "cs",
-            "thumb": "res/img/projects/computr.png",
+            "thumb": "res/img/projects/computr.webp",
             "containerId": "gestion-com",
             "description": "Une mission nous a été confiée : réaliser une application permettant à une société fictive de promouvoir les dangers écologiques dus aux équipements électroniques. Ainsi, nous avons dû créer une base de données contenant des statistiques écologies, puis traiter et afficher ces données dans un logiciel.",
             "catchPhrase": "écologie ordonnée",
@@ -1066,7 +1066,7 @@
                 "Mindview (Outil de gestion de projets)"
             ],
             "descriptionImages": [
-                "res/img/projects/computr.png"
+                "res/img/projects/computr.webp"
             ],
             "url": "",
             "retex": "computr"
