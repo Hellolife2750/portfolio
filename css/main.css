@@ -430,7 +430,7 @@ span.fade-up {
 }
 
 #skills .sticked-button {
-  width: 10rem;
+  width: 12rem;
   font-size: 1.2rem;
 }
 
@@ -472,14 +472,16 @@ span.fade-up {
   transition: all 0.1s ease-in-out;
 }
 
+.sticked-buttons-container .sticked-button {
+  margin: 0 -2px;
+}
+
 .sticked-buttons-container .sticked-button:first-of-type {
   border-radius: 2rem 0 0 2rem;
-  margin-right: -2px;
 }
 
 .sticked-buttons-container .sticked-button:last-of-type {
   border-radius: 0 2rem 2rem 0;
-  margin-left: -2px;
 }
 
 #detailed-skills-container {
@@ -1468,6 +1470,7 @@ footer i[class*="github"]:hover {
 
   #skills .sticked-buttons-container {
     width: 100%;
+    background-color: red !important;
   }
 
   #skills .sticked-button {

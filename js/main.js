@@ -31,6 +31,7 @@ const purposes = {
 
 var cards;
 var allSkills;
+var allFrameworks;
 var allSoftwares;
 var allSkillsContainers;
 const skillsContainer = document.getElementById('skills-container');
@@ -43,6 +44,7 @@ fetch('res/data/projects.json')
     .then(data => {
         cards = data.projects;
         allSkills = data.skills;
+        allFrameworks = data.frameworks;
         allSoftwares = data.softwares;
         let lastCard;
         let container;
@@ -564,6 +566,12 @@ function updateShownSkills() {
                 detailedKkillsContainer.insertAdjacentHTML('beforeend', generateDetailedSoftwareCode(skill));
             }, index * 0);
         });
+    } else if (currentSkillChosen.id === "frameworks-btn") {
+        allFrameworks.forEach((framework, index) => {
+            setTimeout(() => {
+                detailedKkillsContainer.insertAdjacentHTML('beforeend', generateDetailedFrameworkCode(framework));
+            }, index * 0);
+        });
     }
 }
 
@@ -599,6 +607,19 @@ function generateDetailedSkillCode(skill) {
      `
     // < div class="progress-bar-empty" >
     //     <div class="progress-bar-full" style="width: ${skill.progress}%;"></div>
+    //  </div >
+    return code;
+}
+
+function generateDetailedFrameworkCode(framework) {
+    let code = `
+     <div class="skill-card tooltip-item" data-tooltip-content="${framework.description}" onmouseenter="showTooltip(this)" onmouseleave="hideTooltip()">
+         <img src="res/img/frameworks/${framework.framework}.png" class="skill-card-img" alt="icone du langage ${framework.overTitle}">
+         <p class="skill-tag">${framework.overTitle}</p>
+     </div>
+     `
+    // < div class="progress-bar-empty" >
+    //     <div class="progress-bar-full" style="width: ${framework.progress}%;"></div>
     //  </div >
     return code;
 }

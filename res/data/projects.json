@@ -1,4 +1,13 @@
 {
+    "professional_xp" : [
+        {
+            "title": "Développeur web",
+            "company": "iut-bordeaux",
+            "location": "Bordeaux",
+            "date": "2021 - Aujourd'hui",
+            "description": "Développement de sites web pourconst"
+        }
+    ],
     "skills": [
         {
             "language": "python",
@@ -29,7 +38,7 @@
             "progress": 30,
             "logo": "undefined",
             "bgColor": "",
-            "description": "Javascript permet de gérer les interactions dans les pages web modernes. [Bases, aucun framework]",
+            "description": "Javascript permet de gérer les interactions dans les pages web modernes. [Bases]",
             "overTitle": "Javascript"
         },
         {
@@ -37,8 +46,32 @@
             "progress": 30,
             "logo": "undefined",
             "bgColor": "",
-            "description": "SQL permet d'effectuer des requêtes à une base de données. [Bases]",
+            "description": "SQL permet d'effectuer des requêtes à une base de données. [Intermédiaire]",
             "overTitle": "SQL"
+        },
+        {
+            "language": "plsql",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "PL/SQL est un langage de programmation procédural permettant d'enrichir le traitement des données d'une BDD Oracle. [Intermédiaire]",
+            "overTitle": "PL/SQL"
+        },
+        {
+            "language": "php",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "PHP est un langage de programmation web côté serveur. [Bases]",
+            "overTitle": "PHP"
+        },
+        {
+            "language": "ts",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "TypeScript est un sur-ensemble de Javascript, apportant de la rigueur syntaxique. [Bases]",
+            "overTitle": "TypeScript"
         },
         {
             "language": "cs",
@@ -65,14 +98,6 @@
             "overTitle": "GDScript"
         },
         {
-            "language": "react",
-            "progress": 30,
-            "logo": "undefined",
-            "bgColor": "",
-            "description": "React est un framework JS permettant de créer des applications web monopages en utilisant la structure par composants. [Bases]",
-            "overTitle": "React JS"
-        },
-        {
             "language": "cpp",
             "progress": 20,
             "logo": "undefined",
@@ -87,14 +112,56 @@
             "bgColor": "",
             "description": "Markdown permet la mise en page de documents simples. [Bases]",
             "overTitle": "Markdown"
-        },
+        }
+    ],
+    "frameworks" : [
         {
-            "language": "symfony",
+            "framework": "django",
             "progress": 50,
             "logo": "undefined",
             "bgColor": "",
-            "description": "Symfony est un framework PHP. [Bases]",
+            "description": "Django est un framework web Python MTV. [Intermédiaire]",
+            "overTitle": "Django"
+        },
+        {
+            "framework": "symfony",
+            "progress": 50,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Symfony est un framework web PHP MVC. [Bases]",
             "overTitle": "Symfony"
+        },
+        {
+            "framework": "react",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "React est un framework JS permettant de créer des applications web monopages en utilisant la structure par composants. [Bases]",
+            "overTitle": "React"
+        },
+        {
+            "framework": "net",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": ".NET est une framework C# utilisé pour la création de logiciels pour Windows. [Bases]",
+            "overTitle": ".NET"
+        },
+        {
+            "framework": "jquery",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "JQuery est une bibliothèque front-end facilitant l'écriture de code JS. [Bases]",
+            "overTitle": "JQuery"
+        },
+        {
+            "framework": "langchain",
+            "progress": 30,
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Langchain Python facilite l'intégration de LLM dans une application. [Bases]",
+            "overTitle": "Langchain"
         }
     ],
     "softwares": [
@@ -167,6 +234,27 @@
             "bgColor": "",
             "description": "MySQL est un SGBD permettant un accès facile par page web (PHP MyAdmin).",
             "overTitle": "MySQL"
+        },
+        {
+            "software": "figma",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Figma est un logiciel de design et de prototypage d'interface utilisateur.",
+            "overTitle": "Figma"
+        },
+        {
+            "software": "android-studio",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Android studio est un IDE pour le développement d'applications Android.",
+            "overTitle": "Android Studio"
+        },
+        {
+            "software": "docker",
+            "logo": "undefined",
+            "bgColor": "",
+            "description": "Docker est un logiciel de conteneurisation permettant de déployer des applications dans des conteneurs.",
+            "overTitle": "Docker"
         }
     ],
     "projects": [
@@ -671,7 +759,7 @@
             "title": "Extension Chrome",
             "date": 2023,
             "purpose": "personnal",
-            "language": "javascript",
+            "language": "js",
             "thumb": "res/img/projects/devstats.png",
             "containerId": "web",
             "description": "DevStats est une extension chrome affichant des statistiques sur les sites pour programmeurs visités. Elle inclut des graphiques statistiques, une exportation au format .CSV et la personnalisation des sites suivis.",
@@ -738,7 +826,7 @@
             "title": "Quiz historique",
             "date": 2023,
             "purpose": "personnal",
-            "language": "javascript",
+            "language": "js",
             "thumb": "res/img/projects/cadate.png",
             "containerId": "web",
             "description": "Ça date est un site web dans lequel on peut jouer à seul, ou à plusieurs. Le but est de deviner la date d'invention des objets proposés. Un classement final est ensuite établi.",
@@ -771,7 +859,7 @@
             "title": "Test de sociabilité",
             "date": 2023,
             "purpose": "personnal",
-            "language": "javascript",
+            "language": "js",
             "thumb": "res/img/projects/socio-o-meter.png",
             "containerId": "web",
             "description": "Socio-o-meter est un site sur lequel on répond à une trentaine de questions. Ensuite, un score de sociabilité nous est attribué. Il est également possible d'envoyer des messages aux créateurs du site via l'API Discord.",
