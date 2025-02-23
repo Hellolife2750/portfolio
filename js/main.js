@@ -63,9 +63,10 @@ fetch('res/data/projects.json')
         });
 
         allProfxp.forEach(profxp => {
-            container = document.querySelector(`#profxp .content`);
+            container = document.querySelector(`#profxp .content .jobs`);
             container.insertAdjacentHTML('beforeend', generateProfxpCode(profxp));
         });
+        hideExcessJobs();
 
         for (i = 0; i < NB_SKILLS_TO_PREVIEW; i++) {
             skillsContainer.insertAdjacentHTML('beforeend', generateSkillCode(allSkills[i]));
@@ -373,7 +374,7 @@ function moveCursor(e) {
 }
 
 
-let links = document.querySelectorAll("a, li, input, button, .top-btn, .card, .unfold-button, .clickable");
+let links = document.querySelectorAll("a, li, input, button, .top-btn, .card, .unfold-button, .clickable, .classic-link");
 
 
 links.forEach((link) => {
@@ -426,6 +427,33 @@ allFoldButtons.forEach(element => {
 
 })
 
+/* afficher plus ou moins d'expériences pro */
+const showMoreJobs = document.getElementById('show-jobs');
+let allJobs;
+
+function toggleJobs(state, number) {
+    allJobs.forEach((job, i) => {
+        if (i > number - 1) {
+            job.style.display = state;
+        }
+    });
+}
+
+showMoreJobs.addEventListener('click', function () {
+    if (showMoreJobs.classList.contains('unfold')) {
+        toggleJobs('none', 2);
+    } else {
+        toggleJobs('flex', 2);
+    }
+    showMoreJobs.classList.toggle('unfold');
+});
+
+function hideExcessJobs() {
+    allJobs = document.querySelectorAll('.one-job');
+    toggleJobs('none', 2);
+}
+
+/* resize projets si fenetre redimensionnée en cours d'utilisation */
 window.addEventListener("resize", adaptFolded);
 
 function adaptFolded() {

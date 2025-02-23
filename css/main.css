@@ -412,6 +412,9 @@ span.fade-up {
 #profxp .content{
   width: 70%;
   margin: 4% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #profxp .one-job{
@@ -471,6 +474,7 @@ span.fade-up {
   color: #1E40AF;
   padding: 0.6rem;
   border-radius: .5rem;
+  margin-bottom: 1rem;
 }
 
 #profxp .tag:not(:last-child){
@@ -480,6 +484,47 @@ span.fade-up {
 #profxp .tag.softskill {
   background-color: #D1FAE5;
   color: #065F46;
+}
+
+#profxp #show-jobs{
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#profxp #show-jobs .click-appeal{
+  /* animation: 3s ease-in-out showMoreJobs infinite; */
+  transition: transform 0.5s ease-in-out;
+}
+
+#profxp #show-jobs.unfold .click-appeal{
+  transform: rotateZ(180deg);
+}
+
+@keyframes showMoreJobs {
+  0% {
+    transform: translate(0%, -20%);
+  }
+
+  30% {
+    transform: translate(0%, 5%);
+  }
+
+  80%{
+    transform: translate(0%, 5%);
+  }
+
+  100% {
+    transform: translate(0%, -20%);
+  }
+}
+
+.classic-link {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.classic-link:hover{
+  text-decoration: underline;
 }
  
 
@@ -1543,6 +1588,32 @@ footer i[class*="github"]:hover {
     display: none;
   }
 
+  /* profxp */
+  #profxp .content {
+    width: 90%;
+  }
+
+  #profxp .one-job {
+    flex-direction: column;
+  }
+
+  #profxp .job-thumb {
+    margin-bottom: 1rem;
+  }
+
+  #profxp .job-infos {
+    margin-bottom: 3rem;
+  max-width: 85%;
+  }
+
+  #profxp .job-title{
+    flex-direction: column;
+  }
+
+  #profxp .job-title .date {
+    margin: 1rem 0 0 1rem;
+  }
+
   /*projects*/
   #projects .card {
     width: 90%;
@@ -1552,7 +1623,12 @@ footer i[class*="github"]:hover {
 
   #skills .sticked-buttons-container {
     width: 100%;
-    background-color: red !important;
+  }
+
+  #skills .sticked-button {
+    display: block;
+    border-radius: 2rem;
+    margin : .8rem auto;
   }
 
   #skills .sticked-button {

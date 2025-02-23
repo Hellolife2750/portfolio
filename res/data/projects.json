@@ -5,7 +5,7 @@
             "title": "Développeur full-stack",
             "logo" : "dpa",
             "date": "août 2024 - 1 an",
-            "description": "Dans le cadre de mon alternance, j'ai été amené à travailler sur des projets de grande envergure. J'ai notamment participé à la refonte d'un site web de vente en ligne, en utilisant Django et React.",
+            "description": "DPA est une entreprise de stockage et de distribution d'hydrocarbures basée à Bassens (33). Durant cette alternance, j'ai pu <span class='bold'>enrichir</span> le <span class='bold'>progiciel interne</span> de l'entreprise. Ainsi, je me suis familiarisé avec le monde industriel, et notamment les <span class='bold'>bases de données</span> de grande envergure. J'ai aussi beaucoup appris en terme d'<span class='bold'>expérience humaine</span>, puisque je devais présenter les nouvelles fonctionnalités du logiciel aux <span class='bold'>end-users</span>.",
             "hardskills" : [
                 "Python",
                 "Django",
@@ -21,8 +21,8 @@
             "company": "SiteW",
             "title": "Développeur back-end",
             "logo" : "sitew",
-            "date": "avr. 2024 - 2 mois",
-            "description": "Dans le cadre de mon stage de fin de DUT, j'ai été amené à travailler sur des projets de petite envergure. J'ai notamment participé à la création d'une API REST pour un site de gestion de projets.",
+            "date": "avril 2024 - 2 mois",
+            "description": "SiteW est une société développant son propre SAAS de création de site web. J'ai eu l'occasion de travailler avec le CTO dans un espace de <span class='bold'>coworking</span>. Ma mission a été de migrer une <span class='bold'>API REST</span> de requêtage de <span class='bold'>LLM</span> de TypeScript à Python, en utilisant le module Langserve. Ça a été l'occasion de développer mon <span class='bold'>autonomie</span> et d'approfondir mes connaissances en Python.",
             "hardskills" : [
                 "Python",
                 "Langchain"
@@ -37,7 +37,7 @@
             "title": "Tuteur",
             "logo" : "iut-bordeaux",
             "date": "sept. 2023 - 4 mois",
-            "description": "J'ai été tuteur pour des étudiants de 1e année de DUT Informatique. J'ai notamment aidé à la compréhension des cours, à la réalisation de projets et à la préparation des examens.",
+            "description": "J'ai été tuteur pour des étudiants de 1e année de BUT Informatique. J'ai notamment aidé à la <span class='bold'>compréhension des cours</span> et à la <span class='bold'>réalisation de projets</span>. Cela a développé mon sens de la <span class='bold'>pédagogie</span> et mon sens de la <span class='bold'>communication</span>.",
             "hardskills" : [
                 "Java"
             ],
